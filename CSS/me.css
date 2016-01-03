@@ -1,8 +1,11 @@
+html {
+	height: 100%
+}
 body {
     font: 20px Montserrat, sans-serif;
     line-height: 1.8;
-    background-color: #ff69b4 /* HOT PINK - Shows if containers aren't covering screen fully */
     color: #f5f6f7;
+    height: 100%
 }
 p {font-size: 16px;}
 .margin {margin-bottom: 45px;}
@@ -21,14 +24,17 @@ p {font-size: 16px;}
 .bg-4 { 
     background-color: #2f2f2f; /* Black Gray */
     color: #fff; 
-}          
+}
+.bg-5 {
+
+}
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
 } 
 .navbar {
-    padding-top: 00px;
-    padding-bottom: 00px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
@@ -38,4 +44,7 @@ p {font-size: 16px;}
 }
 .navbar-nav  li a:hover {
       color: #1abc9c !important;
-  }
+ }
+.full-page {
+	height: 100%
+}

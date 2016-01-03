@@ -10,8 +10,9 @@
  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script src="JS/smoothScroll.js"></script>
-	<script src="JS/jquery.bootstrap-autohidingnavbar.min.js"></script>
-	<script src="JS/initNavbar.js"></script>
+	<!--<script src="JS/jquery.bootstrap-autohidingnavbar.min.js"></script>
+	<script src="JS/initNavbar.js"></script>-->
+	<script src="JS/autohideNavbar.js"></script>
 	<link rel="stylesheet" type="text/css" href="CSS/me.css">
 </head>
 
@@ -31,35 +32,35 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="#ABOUT">ABOUT</a></li>
         			<li><a href="#WORK">WORK</a></li>
-				<li><a href="#">WHERE</a></li>
+				<li><a href="#">ACHIEVEMENTS</a></li>
 				<li><a href="#CONTACT">CONTACT ME</a></li>
-			</ul>
+			</ul>	
 		</div>
 	</div>
 </nav>
 <!-- First Container -->
-<div id="HOME" class="container-fluid bg-1 text-center">
-	<h3 class="margin">Who Am I?</h3>
+<div id="HOME" class="full-page container-fluid bg-1 text-center">
+	<h1 class="margin">Andrew Tu</h1>
   	<img src="Images/Highline.jpg" class="img-responsive img-circle margin" style="display:inline" width="400" height="400">
 	<h3></h3>
 </div>
 
 <!-- Second Container -->
-<div id="ABOUT" class="container-fluid bg-2">
+<div id="ABOUT" class="container-fluid full-page bg-2">
 	<h3 class="page-header margin">About</h3>
 <div class="content">
 	<div class="col-md-3">
 		<img src="Images/Highline.jpg" class="img-responsive img-circle margin" styel="display:inline"> 
 	</div>
 	<div class="col-md-9">
-		My name is Andrew Tu. I am a first year undergraduate student at Northeastern Unviersity... Fill Stuff in here. 
+	<p>My name is Andrew Tu. I am a first year undergraduate student at Northeastern Unviersity... Fill Stuff in here. 
 	</div>
 </div>
 
 </div>
 
 <!-- Third Container (Grid) -->
-<div id="WORK" class="container-fluid bg-3 text-center">    
+<div id="WORK" class="container-fluid full-page bg-3 text-center">    
 	<h3 class="margin page-header">Work</h3><br>
 	<div class="row">
 		<div class="col-sm-4">
@@ -78,7 +79,7 @@
 </div>
 
 <!-- Fifth Container -->
-<div id="CONTACT" class="container-fluid bg5">
+<div id="CONTACT" class="container-fluid bg-5">
 	<h3 class="margin page-header">Contact Me</h3>
 
 	<ul>
@@ -89,6 +90,7 @@
 
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center">
+<a href="https://www.linkedIn.com/in/drewtu2"><img src="Images/linkedIn.png" class="img-responsive"></a>
 <!--<p>Bootstrap Theme Made By <a href="http://www.w3schools.com">www.w3schools.com</a></p> -->
 </footer>
 </body>
