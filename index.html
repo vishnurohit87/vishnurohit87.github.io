@@ -8,44 +8,59 @@
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
- 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="JS/smoothScroll.js"></script>
+	<script src="JS/jquery.bootstrap-autohidingnavbar.min.js"></script>
+	<script src="JS/initNavbar.js"></script>
 	<link rel="stylesheet" type="text/css" href="CSS/me.css">
 </head>
+
 <body>
- <!-- Navbar -->
-<nav class="navbar navbar-default">
+<!-- Navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container">
-		<div class="navbar-header"> <!--Header button-->		
+		<div class="navbar-header" id="myNavbar" <!--Header button-->		
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 				<span class="icon-bar"></span>
         			<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
       			</button>
-			<a class="navbar-brand" href="#">Me</a>
+			<a class="navbar-brand" href="#HOME">Andrew Tu</a>
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav navbar-right">
-        			<li><a href="#">WHO</a></li>
-        			<li><a href="#">WHAT</a></li>
-        			<li><a href="#">WHERE</a></li>
+				<li><a href="#ABOUT">ABOUT</a></li>
+        			<li><a href="#WORK">WORK</a></li>
+				<li><a href="#">WHERE</a></li>
+				<li><a href="#CONTACT">CONTACT ME</a></li>
 			</ul>
 		</div>
 	</div>
 </nav>
 <!-- First Container -->
-<div class="container-fluid bg-1 text-center">
+<div id="HOME" class="container-fluid bg-1 text-center">
 	<h3 class="margin">Who Am I?</h3>
-  	<img src="Images/Highline.jpg" class="img-responsive img-circle margin" style="display:inline" width="350" height="350">
-  	<h3>I'm an adventurer</h3>
+  	<img src="Images/Highline.jpg" class="img-responsive img-circle margin" style="display:inline" width="400" height="400">
+	<h3></h3>
 </div>
+
 <!-- Second Container -->
-<div class="container-fluid bg-2 text-center">
-	<h3 class="margin">What Am I?</h3>
-  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+<div id="ABOUT" class="container-fluid bg-2">
+	<h3 class="page-header margin">About</h3>
+<div class="content">
+	<div class="col-md-3">
+		<img src="Images/Highline.jpg" class="img-responsive img-circle margin" styel="display:inline"> 
+	</div>
+	<div class="col-md-9">
+		My name is Andrew Tu. I am a first year undergraduate student at Northeastern Unviersity... Fill Stuff in here. 
+	</div>
 </div>
+
+</div>
+
 <!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center">    
-	<h3 class="margin">Work</h3><br>
+<div id="WORK" class="container-fluid bg-3 text-center">    
+	<h3 class="margin page-header">Work</h3><br>
 	<div class="row">
 		<div class="col-sm-4">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -61,9 +76,22 @@
 		</div>
 	</div>
 </div>
+
+<!-- Fifth Container -->
+<div id="CONTACT" class="container-fluid bg5">
+	<h3 class="margin page-header">Contact Me</h3>
+
+	<ul>
+		<li>Email: drewtu2@gmail.com</li>
+		<li>LinkedIn: www.linkedIn.com/in/drewtu2
+	</ul>
+</div>
+
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center">
 <!--<p>Bootstrap Theme Made By <a href="http://www.w3schools.com">www.w3schools.com</a></p> -->
 </footer>
 </body>
 </html>
+
+
