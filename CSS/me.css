@@ -10,17 +10,24 @@ body {
 p {font-size: 16px;}
 .margin {margin-bottom: 45px;}
 #HOME {	
-    background-color: #000000; /* Black */
-    color: #ffffff;
+   background-color: #000000; /* Black */
+   /*background-image: url("../Images/Duke_Full.jpg"); /*For now we need to understand how to make everything scaleable*/
+   background-size: 100%;
+   background-repeat: no-repeat;
+   color: #ffffff;
 }
 #ABOUT { 
     background-color: #474e5d; /* Dark Blue */
     color: #ffffff;
 }
-#WORK { 
+#PROJECTS { 
     background-color: #ffffff; /* White */
     color: #555555;
-}       
+}
+#EXPERIENCE {
+    background-color: #ffffff; /* White */
+    color: #555555;
+}
 #CONTACT { 
     background-color: #939296; /* Black Gray */
     color: #fff; 
