@@ -2,7 +2,7 @@ $(document).ready(function(){
 //Save original background color
 originalBackground = $('.navbar').css('background');
 //Set transparency first
-$('.navbar').css('background', 'rgba(0,0,0,0.4)');
+$('.navbar').css('background', 'rgba(0,0,0,0)');
 // fade in .navbar
 $(function () {
 	/*$(window).scroll(function () {
