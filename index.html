@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Hi! -->
 <!-- Theme Made By www.w3schools.com - No Copyright -->
 	<title>Andrew Tu</title>
 	<meta charset="utf-8">
@@ -14,11 +15,30 @@
 	<!--<script src="JS/jquery.bootstrap-autohidingnavbar.min.js"></script>
 	<script src="JS/initNavbar.js"></script>-->
 	<script src="JS/autohideNavbar.js"></script>
-	<script src="JS/initPopover.js"></script>
+	<script src="JS/pageInit.js"></script>
 	<link rel="stylesheet" type="text/css" href="CSS/me.css">
 </head>
+<!-- Under Construction Modal -->
 
 <body>
+<div id="modal-underConstruction" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<!-- Content -->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4>Page under construction</h4>
+			</div><!-- /modal-header -->
+			<div class="modal-body">
+				<p>Hi! Thanks for visiting my site! This page is currently still under construction so please pardon our appearance while we develop.</p>
+				<p>Thank you for your understanding!
+			</div><!-- /modal-body -->
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Proceed to Site</button>
+			</div><!-- /modal-footer-->
+		</div><!-- /modal-content -->
+	</div><!-- /modal-dialog -->
+</div><!-- /this-modal -->
 <!-- Navbar -->
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container">
@@ -83,21 +103,21 @@
 	<h3 class="margin page-header">Projects</h3><br>
 	<div class="row">
 	<div class="col-md-4"><!-- Template  --> 
-		<h4>Template - Season Year</h4>
-		<a data-toggle="modal" data-target="#modal-template">
-			<img src="Images/coming-soon.jpg" class="img-responsive img-rounded margin" style="width:100%" alt="Image" data-toggle="tooltip" title="Click for more info" data-placement="bottom">
+		<h4>My Personal Website - Winter 2016</h4>
+		<a data-toggle="modal" data-target="#modal-personalSite">
+			<img src="Images/PersonalSite.jpg" class="img-responsive img-rounded margin" style="width:100%" alt="Image" data-toggle="tooltip" title="Click for more info" data-placement="bottom">
 		</a>
 		<!-- Modal -->
-		<div id="modal-template" class="modal fade" role="dialog">
+		<div id="modal-personalSite" class="modal fade" role="dialog">
 			<div class="modal-dialog">
 				<!-- Content -->
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal">&times;</button>
-						<h4>Project Title Here</h4>
+						<h4>My Personal Website</h4>
 					</div><!-- /modal-header -->
 					<div class="modal-body">
-						<p>Brief Summary Goes Here</p>
+						<p>Halfway into my first year, I realized the importance of a portfolio of sorts to showcase my accomplishments. One of my resaerch colleagues showed me a website he put togther and inspired me to create my own. While I had some past experience with web design, the new site is considerably more advanced than anything I had previously worked on. In order to complete this project, I learened to use Boostrap and jQuery in order to create a simple but attractice portfolio.</p>
 					</div><!-- /modal-body -->
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-target="#">View Site</button>
@@ -135,7 +155,7 @@
 	<div class="col-md-4"><!-- First Robotics -->
 		<h4>2015 FIRST Robotics Competition - Spring 2015</h4>
 		<a data-toggle="modal" data-target="#modal-first">
-			<img src="Images/coming-soon.jpg" class="img-responsive img-rounded margin" style="width:100%" alt="Image" data-toggle="tooltip" title="Click for more info" data-placement="bottom">
+			<img src="Images/firstRobotics.jpg" class="img-responsive img-rounded margin" style="width:100%" alt="Image" data-toggle="tooltip" title="Click for more info" data-placement="bottom">
 		</a>
 		<!-- Modal -->
 		<div id="modal-first" class="modal fade" role="dialog">
@@ -158,6 +178,83 @@
 		</div><!-- /myModal -->
 	</div><!-- /First Robotics -->
 	</div><!-- /Row -->
+	<div class="row">
+	<div class="col-md-4"><!-- Hofheimer Grotto  --> 
+		<h4>Eagle Project at the Hofheimer Grotto - Fall 2015</h4>
+		<a data-toggle="modal" data-target="#modal-EagleProject">
+			<img src="Images/coming-soon.jpg" class="img-responsive img-rounded margin" style="width:100%" alt="Image" data-toggle="tooltip" title="Click for more info" data-placement="bottom">
+		</a>
+		<!-- Modal -->
+		<div id="modal-EagleProject" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<!-- Content -->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4>Eagle Project at the Hofheimer Grotto</h4>
+					</div><!-- /modal-header -->
+					<div class="modal-body">
+						<p>DESCRIPTION OF GROTTO PROJECT</p>
+					</div><!-- /modal-body -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-target="#">Read More</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div><!-- /modal-footer-->
+				</div><!-- /modal-content -->
+			</div><!-- /modal-dialog -->
+		</div><!-- /this-modal -->
+	</div><!-- /Hofheimer Grotto -->
+	<div class="col-md-4"><!-- Template  --> 
+		<h4>Template - Season Year</h4>
+		<a data-toggle="modal" data-target="#modal-template">
+			<img src="Images/coming-soon.jpg" class="img-responsive img-rounded margin" style="width:100%" alt="Image" data-toggle="tooltip" title="Click for more info" data-placement="bottom">
+		</a>
+		<!-- Modal -->
+		<div id="modal-template" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<!-- Content -->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4>Project Title Here</h4>
+					</div><!-- /modal-header -->
+					<div class="modal-body">
+						<p>Brief Summary Goes Here</p>
+					</div><!-- /modal-body -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-target="#">View Site</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div><!-- /modal-footer-->
+				</div><!-- /modal-content -->
+			</div><!-- /modal-dialog -->
+		</div><!-- /this-modal -->
+	</div><!-- /Template -->
+	<div class="col-md-4"><!-- Template  --> 
+		<h4>Template - Season Year</h4>
+		<a data-toggle="modal" data-target="#modal-template">
+			<img src="Images/coming-soon.jpg" class="img-responsive img-rounded margin" style="width:100%" alt="Image" data-toggle="tooltip" title="Click for more info" data-placement="bottom">
+		</a>
+		<!-- Modal -->
+		<div id="modal-template" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<!-- Content -->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4>Project Title Here</h4>
+					</div><!-- /modal-header -->
+					<div class="modal-body">
+						<p>Brief Summary Goes Here</p>
+					</div><!-- /modal-body -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-target="#">View Site</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div><!-- /modal-footer-->
+				</div><!-- /modal-content -->
+			</div><!-- /modal-dialog -->
+		</div><!-- /this-modal -->
+	</div><!-- /Template -->
+	</div><!-- /Row -->
 </div>
 
 <!------- Experience ---------->
@@ -167,7 +264,8 @@
 	Moved earth and heaven, that which we are, we are, <br>
 	One equal temper of heroic hearts,<br>
 	Made weak by time and fate, but strong in will<br>
-	To strive, to seek, to find, and not to yield. </p>
+	To strive, to seek, to find, and not to yield.<br>
+	-Ulysses, Alfred Lord Tennyson</p>
 </div>
 
 <!-- Fifth Container -->

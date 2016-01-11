@@ -24,6 +24,9 @@ p {font-size: 16px;}
     background-color: #ffffff; /* White */
     color: #555555;
 }
+#PROJECTS img:hover{
+	opacity: 0.4;
+}
 #EXPERIENCE {
     background-color: #ffffff; /* White */
     color: #555555;
@@ -35,6 +38,9 @@ p {font-size: 16px;}
 #FOOTER { 
     background-color: #2f2f2f; /* Black Gray */
     color: #fff; 
+}
+#modal-underConstruction{
+	color:#555555;
 }
 .container-fluid {
     padding-top: 70px;
