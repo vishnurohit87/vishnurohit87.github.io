@@ -22,7 +22,8 @@ $(function () {
 	})
 	$(".navbar").on("activate.bs.scrollspy", function(){
 		var hash = $(this).find("li.active a").attr("href");
-		$('.navbar').css('background', $(hash).css('background'));	
+		$('.navbar').css('background', $(hash).css('background'));
+		$('.navbar').css('opacity', .95);
 	})
 })
 });

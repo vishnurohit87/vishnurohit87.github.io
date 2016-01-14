@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Hi! -->
-<!-- Theme Made By www.w3schools.com - No Copyright -->
 	<title>Andrew Tu</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat">
  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	
 	<script src="JS/smoothScroll.js"></script>
-	<!--<script src="JS/jquery.bootstrap-autohidingnavbar.min.js"></script>
-	<script src="JS/initNavbar.js"></script>-->
-	<script src="JS/autohideNavbar.js"></script>
+	<script src="JS/updateNavbar.js"></script>
 	<script src="JS/pageInit.js"></script>
+	<script src="JS/modalSaveFile.js"></script>
+	<script src="JS/projects.js"></script>
+	
 	<link rel="stylesheet" type="text/css" href="CSS/me.css">
 </head>
-<!-- Under Construction Modal -->
-
 <body>
+<!------------ Under Construction Modal ------------>
 <div id="modal-underConstruction" class="modal fade" role="dialog">
 	<div class="modal-dialog">
 		<!-- Content -->
@@ -38,8 +37,9 @@
 			</div><!-- /modal-footer-->
 		</div><!-- /modal-content -->
 	</div><!-- /modal-dialog -->
-</div><!-- /this-modal -->
-<!-- Navbar -->
+</div><!------------ /Under Construction Modal ------------>
+
+<!---------- Navbar ---------->
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container">
 		<div class="navbar-header" id="nav-head"> <!--Header button-->		
@@ -59,205 +59,52 @@
 			</ul>	
 		</div>
 	</div>
-</nav>
+</nav><!---------- /Navbar ---------->
 <!-------Title Page---------->
 <div id="HOME" class="full-page container-fluid text-center">
 	<h1 class="margin">Andrew Tu</h1>
 	<img src="Images/Duke.jpg" class="img-responsive img-circle margin" style="display:inline" height="400px" width="400px" >
 	<h3></h3>
-</div>
+</div><!------- /Title Page ---------->
 
 <!--------About Me------------>
 <div id="ABOUT" class="container-fluid">
 	<h3 class="page-header margin">About</h3>
-<div class="content">
-	<div class="col-md-3">
-		<img src="Images/Highline.jpg" class="img-responsive img-circle margin" styel="display:inline"> 
+	<div class="content">
+		<div class="col-md-3">
+			<img src="Images/Highline.jpg" class="img-responsive img-circle margin" style="display:inline"> 
+		</div>
+		<div class="col-md-9">
+			<p>I am a first year undergraduate student at Northeastern University with an interest in Electrical and Computer Engineering. I </p>
+			
+			<p>Oh, the torment bred in the race,<br> 
+			The grinding scream of death<br>
+			And the stroke that hits the vein,<br> 
+			The hemorrhage none can staunch, the grief,<br> 
+			The curse no man can bear.</p>
+	
+			<p>But there is a cure in the house, <br>
+			And not outside it, no, <br>
+			Not from others but from them,<br> 
+			Their bloody strife. We sing to you,<br> 
+			Dark gods beneath the earth.</p>
+	
+			<p>Now hear, you blissful powers underground –<br> 
+			Answer the call, send help. <br>
+			Bless the children, give them triumph now.<br> 
+			(Aeschylus, The Libation Bearers)</p>
+		</div>
 	</div>
-	<div class="col-md-9">
-		<p>I am a first year undergraduate student at Northeastern University with an interest in Electrical and Computer Engineering. I </p>
-		
-		<p>Oh, the torment bred in the race,<br> 
-		The grinding scream of death<br>
-		And the stroke that hits the vein,<br> 
-		The hemorrhage none can staunch, the grief,<br> 
-		The curse no man can bear.</p>
+</div><!---------- /About Me -------------->
 
-		<p>But there is a cure in the house, <br>
-		And not outside it, no, <br>
-		Not from others but from them,<br> 
-		Their bloody strife. We sing to you,<br> 
-		Dark gods beneath the earth.</p>
-
-		<p>Now hear, you blissful powers underground –<br> 
-		Answer the call, send help. <br>
-		Bless the children, give them triumph now.<br> 
-		(Aeschylus, The Libation Bearers)</p>
-	</div>
-</div>
-
-</div><!------ /About Me ---------->
-
-<!--------Projects-------->
+<!------------ Projects ------------>
 <div id="PROJECTS" class="container-fluid text-center">    
-	<h3 class="margin page-header">Projects</h3><br>
-	<div class="row">
-	<div class="col-md-4"><!-- Template  --> 
-		<h4>My Personal Website - Winter 2016</h4>
-		<a data-toggle="modal" data-target="#modal-personalSite">
-			<img src="Images/PersonalSite.jpg" class="img-responsive img-rounded margin" style="width:100%" alt="Image" data-toggle="tooltip" title="Click for more info" data-placement="bottom">
-		</a>
-		<!-- Modal -->
-		<div id="modal-personalSite" class="modal fade" role="dialog">
-			<div class="modal-dialog">
-				<!-- Content -->
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-						<h4>My Personal Website</h4>
-					</div><!-- /modal-header -->
-					<div class="modal-body">
-						<p>Halfway into my first year, I realized the importance of a portfolio of sorts to showcase my accomplishments. One of my resaerch colleagues showed me a website he put togther and inspired me to create my own. While I had some past experience with web design, the new site is considerably more advanced than anything I had previously worked on. In order to complete this project, I learened to use Boostrap and jQuery in order to create a simple but attractice portfolio.</p>
-					</div><!-- /modal-body -->
-					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-target="#">View Site</button>
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					</div><!-- /modal-footer-->
-				</div><!-- /modal-content -->
-			</div><!-- /modal-dialog -->
-		</div><!-- /this-modal -->
-	</div><!-- /Template -->
-	<div class="col-md-4"><!-- Gangluff Soundboard --> 
-		<h4>The Gangluff Soundboard - Spring 2015</h4>
-		<a data-toggle="modal" data-target="#modal-gangluff">
-			<img src="Images/Ganglfuff Soundboard.jpg" class="img-responsive img-rounded margin" style="width:100%" alt="Image" data-toggle="tooltip" title="Click for more info" data-placement="bottom">
-		</a>
-		<!-- Modal -->
-		<div id="modal-gangluff" class="modal fade" role="dialog">
-			<div class="modal-dialog">
-				<!-- Content -->
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-						<h4>The Gangluff Soundboard</h4>
-					</div><!-- /modal-header -->
-					<div class="modal-body">
-						<p>I wrote this soundboard for my AP Chemsitry teacher to use to spice up his lectures. The sounds can be played by clicking on screen buttons or using the keyboard. The board also has a data file generator that makes it easy to redo update the boards on the sound. This project introduced me to Javascript and expanded on my HTML and CSS skills.</p>
-					</div><!-- /modal-body -->
-					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-target="#">View Site</button>
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					</div><!-- /modal-footer-->
-				</div><!-- /modal-content -->
-			</div><!-- /modal-dialog -->
-		</div><!-- /myModal -->
-	</div><!-- /Gangluff -->
-	<div class="col-md-4"><!-- First Robotics -->
-		<h4>2015 FIRST Robotics Competition - Spring 2015</h4>
-		<a data-toggle="modal" data-target="#modal-first">
-			<img src="Images/firstRobotics.jpg" class="img-responsive img-rounded margin" style="width:100%" alt="Image" data-toggle="tooltip" title="Click for more info" data-placement="bottom">
-		</a>
-		<!-- Modal -->
-		<div id="modal-first" class="modal fade" role="dialog">
-			<div class="modal-dialog">
-				<!-- Content -->
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-						<h4>2015 FIRST Robotics Competition</h4>
-					</div><!-- /modal-header -->
-					<div class="modal-body">
-						<p>During my senior year of high school, I served as the head programmer of my high school FIRST Robotics team. Working direclty with our team mentor, I wrote code in C++ to run the autonomous and tele-operated functions of our robot. </p>
-					</div><!-- /modal-body -->
-					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-target="#">Read more</button>
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					</div><!-- /modal-footer-->
-				</div><!-- /modal-content -->
-			</div><!-- /modal-dialog -->
-		</div><!-- /myModal -->
-	</div><!-- /First Robotics -->
-	</div><!-- /Row -->
-	<div class="row">
-	<div class="col-md-4"><!-- Hofheimer Grotto  --> 
-		<h4>Eagle Project at the Hofheimer Grotto - Fall 2015</h4>
-		<a data-toggle="modal" data-target="#modal-EagleProject">
-			<img src="Images/coming-soon.jpg" class="img-responsive img-rounded margin" style="width:100%" alt="Image" data-toggle="tooltip" title="Click for more info" data-placement="bottom">
-		</a>
-		<!-- Modal -->
-		<div id="modal-EagleProject" class="modal fade" role="dialog">
-			<div class="modal-dialog">
-				<!-- Content -->
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-						<h4>Eagle Project at the Hofheimer Grotto</h4>
-					</div><!-- /modal-header -->
-					<div class="modal-body">
-						<p>DESCRIPTION OF GROTTO PROJECT</p>
-					</div><!-- /modal-body -->
-					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-target="#">Read More</button>
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					</div><!-- /modal-footer-->
-				</div><!-- /modal-content -->
-			</div><!-- /modal-dialog -->
-		</div><!-- /this-modal -->
-	</div><!-- /Hofheimer Grotto -->
-	<div class="col-md-4"><!-- Template  --> 
-		<h4>Template - Season Year</h4>
-		<a data-toggle="modal" data-target="#modal-template">
-			<img src="Images/coming-soon.jpg" class="img-responsive img-rounded margin" style="width:100%" alt="Image" data-toggle="tooltip" title="Click for more info" data-placement="bottom">
-		</a>
-		<!-- Modal -->
-		<div id="modal-template" class="modal fade" role="dialog">
-			<div class="modal-dialog">
-				<!-- Content -->
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-						<h4>Project Title Here</h4>
-					</div><!-- /modal-header -->
-					<div class="modal-body">
-						<p>Brief Summary Goes Here</p>
-					</div><!-- /modal-body -->
-					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-target="#">View Site</button>
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					</div><!-- /modal-footer-->
-				</div><!-- /modal-content -->
-			</div><!-- /modal-dialog -->
-		</div><!-- /this-modal -->
-	</div><!-- /Template -->
-	<div class="col-md-4"><!-- Template  --> 
-		<h4>Template - Season Year</h4>
-		<a data-toggle="modal" data-target="#modal-template">
-			<img src="Images/coming-soon.jpg" class="img-responsive img-rounded margin" style="width:100%" alt="Image" data-toggle="tooltip" title="Click for more info" data-placement="bottom">
-		</a>
-		<!-- Modal -->
-		<div id="modal-template" class="modal fade" role="dialog">
-			<div class="modal-dialog">
-				<!-- Content -->
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-						<h4>Project Title Here</h4>
-					</div><!-- /modal-header -->
-					<div class="modal-body">
-						<p>Brief Summary Goes Here</p>
-					</div><!-- /modal-body -->
-					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-target="#">View Site</button>
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					</div><!-- /modal-footer-->
-				</div><!-- /modal-content -->
-			</div><!-- /modal-dialog -->
-		</div><!-- /this-modal -->
-	</div><!-- /Template -->
-	</div><!-- /Row -->
-</div>
+	<h3 class="margin page-header">Projects</h3>
+	<br>
+	<!-- Filled in with JQuery -->
+</div><!------------ /Projects ------------>
 
-<!------- Experience ---------->
+<!----------- Experience -------------->
 <div id="EXPERIENCE" class="container-fluid">
 	<h3 class="page-header margin">Experience</h3>
 	<p>We are not now that strength which in old days <br>
@@ -266,7 +113,7 @@
 	Made weak by time and fate, but strong in will<br>
 	To strive, to seek, to find, and not to yield.<br>
 	-Ulysses, Alfred Lord Tennyson</p>
-</div>
+</div><!----------- /Experience -------------->
 
 <!-- Fifth Container -->
 <div id="CONTACT" class="container-fluid">
