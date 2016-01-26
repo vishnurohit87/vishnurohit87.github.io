@@ -40,7 +40,7 @@ for(var i = 0; i < modalSaveFile.length; i++){
 
 
 var numModals = modalList.length;
-var numRows = 1 + (numModals/3);
+var numRows = (numModals/3);
 
 /*--------------Create Our Rows--------------------*/
 for (var x = 0; x < numRows; x++){
@@ -53,29 +53,29 @@ for (var x = 0; x < 3; x++){
 //alert(modalList.length + " " + numModals);
 /*--------------Add the individual modals to each block--------------------*/
 for (var x = 1; x <= numModals; x++){
-	$("#PROJECTS .row:eq(" + (Math.floor(x/3)) + ") .col-md-4:eq(" + (x%3-1) + ")").append(
-		"<h4>" + modalList[numModals-x].header + "</h4>\
-		<a data-toggle=\"modal\" data-target=\"#modal-" + modalList[numModals-x].id + "\">\
-		<img src=\"Images/" + modalList[numModals-x].imgSrc + "\" class=\"img-responsive img-rounded margin\" style=\"width:100%\" alt=\"Image\" data-toggle=\"tooltip\" title=\"" + modalList[numModals-x].altButtonTxt + "\" data-placement=\"bottom\">\
-		</a>\
-		<!-- Modal -->\
-		<div id=\"modal-" + modalList[numModals-x].id + "\" class=\"modal fade\" role=\"dialog\">\
-			<div class=\"modal-dialog\">\
-				<!-- Content -->\
-				<div class=\"modal-content\">\
-					<div class=\"modal-header\">\
-						<button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>\
-						<h4>" + modalList[numModals-x].header + "</h4>\
-					</div><!-- /modal-header -->\
-					<div class=\"modal-body\">\
-						<p>" + modalList[numModals-x].description + "</p>\
-						</div><!-- /modal-body -->\
-					<div class=\"modal-footer\">\
-						<button type=\"button\" class=\"btn btn-default\" data-target=\"#\">" + modalList[numModals-x].altButtonTxt + "</button>\
-						<button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button>\
-					</div><!-- /modal-footer-->\
-				</div><!-- /modal-content -->\
-			</div><!-- /modal-dialog -->\
-		</div><!-- /this-modal -->");	
+	$("#PROJECTS .row:eq(" + (Math.floor((x-1)/3)) + ") .col-md-4:eq(" + (x%3-1) + ")").append(
+		"<h4>" + modalList[numModals-x].header + "</h4>" +
+		"<a data-toggle=\"modal\" data-target=\"#modal-" + modalList[numModals-x].id + "\">" + 
+		"<img src=\"Images/" + modalList[numModals-x].imgSrc + "\" class=\"img-responsive img-rounded margin\" style=\"width:100%\" alt=\"Image\" data-toggle=\"tooltip\" title=\"" + modalList[numModals-x].altButtonTxt + "\" data-placement=\"bottom\">" +
+		"</a>" +
+		"<!-- Modal -->" +
+		"<div id=\"modal-" + modalList[numModals-x].id + "\" class=\"modal fade\" role=\"dialog\">" +
+			"<div class=\"modal-dialog\">" +
+				"<!-- Content -->" +
+				"<div class=\"modal-content\">" +
+					"<div class=\"modal-header\">" +
+						"<button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>" +
+						"<h4>" + modalList[numModals-x].header + "</h4>" + 
+					"</div><!-- /modal-header -->" + 
+					"<div class=\"modal-body\">" + 
+						"<p>" + modalList[numModals-x].description + "</p>" + 
+					"</div><!-- /modal-body -->" +
+					"<div class=\"modal-footer\">" + 
+						"<button type=\"button\" class=\"btn btn-default\" data-target=\"#\">" + modalList[numModals-x].altButtonTxt + "</button>" + 
+						"<button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button>" + 
+					"</div><!-- /modal-footer-->" + 
+				"</div><!-- /modal-content -->" + 
+			"</div><!-- /modal-dialog -->" + 
+		"</div><!-- /this-modal -->");	
 }
 });

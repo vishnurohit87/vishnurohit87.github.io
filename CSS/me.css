@@ -9,6 +9,27 @@ body {
 }
 p {font-size: 16px;}
 .margin {margin-bottom: 45px;}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+} 
+.navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    /*background: rgba(0,0,0,0.4);*/
+}
+.navbar-nav li a:hover {
+      color: #1abc9c !important;
+}
+.full-page {
+	height: 100%
+}
 #HOME {	
    background-color: #000000; /* Black */
    /*background-image: url("../Images/Duke_Full.jpg"); /*For now we need to understand how to make everything scaleable*/
@@ -24,7 +45,7 @@ p {font-size: 16px;}
     background-color: #ffffff; /* White */
     color: #555555;
 }
-#PROJECTS img:hover{
+#PROJECTS img:hover {
 	opacity: 0.4;
 }
 #EXPERIENCE {
@@ -39,26 +60,12 @@ p {font-size: 16px;}
     background-color: #2f2f2f; /* Black Gray */
     color: #fff; 
 }
+#FOOTER .container-fluid .a{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
 #modal-underConstruction{
 	color:#555555;
-}
-.container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
-} 
-.navbar {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
-    /*background: rgba(0,0,0,0.4);*/
-}
-.navbar-nav  li a:hover {
-      color: #1abc9c !important;
- }
-.full-page {
-	height: 100%
 }
