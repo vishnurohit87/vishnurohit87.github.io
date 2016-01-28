@@ -23,6 +23,7 @@
 			</div><!-- /modal-dialog -->
 		</div><!-- /this-modal -->
 	</div><!-- /Template -->*/
+
 $("#PROJECTS").ready(function(){
 var modalList = [];
 var modal;
@@ -48,7 +49,7 @@ for (var x = 0; x < numRows; x++){
 }
 /*--------------Create Our Cols--------------------*/
 for (var x = 0; x < 3; x++){
-	$("#PROJECTS .row").append("<div class=\"col-md-4\"></div>"); //<div class="col-md-4"></div>
+	$("#PROJECTS .row").append("<div class=\"col-md-4 text-center\"></div>"); //<div class="col-md-4"></div>
 }
 //alert(modalList.length + " " + numModals);
 /*--------------Add the individual modals to each block--------------------*/
