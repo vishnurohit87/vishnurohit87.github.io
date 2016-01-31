@@ -35,6 +35,7 @@ for(var i = 0; i < modalSaveFile.length; i++){
 		imgSrc:modalSaveFile[i][2],
 		description:modalSaveFile[i][3],
 		altButtonTxt:modalSaveFile[i][4],
+		link:modalSaveFile[i][5],
 	};
 	modalList.push(modal);
 }
@@ -72,8 +73,8 @@ for (var x = 1; x <= numModals; x++){
 						"<p>" + modalList[numModals-x].description + "</p>" + 
 					"</div><!-- /modal-body -->" +
 					"<div class=\"modal-footer\">" + 
-						"<button type=\"button\" class=\"btn btn-default\" data-target=\"#\">" + modalList[numModals-x].altButtonTxt + "</button>" + 
-						"<button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button>" + 
+						"<a href=\"" + modalList[numModals-x].link + "\"type=\"button\" class=\"btn btn-default\">" + modalList[numModals-x].altButtonTxt + "</button>" + 
+						//"<button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button>" + 
 					"</div><!-- /modal-footer-->" + 
 				"</div><!-- /modal-content -->" + 
 			"</div><!-- /modal-dialog -->" + 
