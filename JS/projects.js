@@ -73,7 +73,7 @@ for (var x = 1; x <= numModals; x++){
 						"<p>" + modalList[numModals-x].description + "</p>" + 
 					"</div><!-- /modal-body -->" +
 					"<div class=\"modal-footer\">" + 
-						"<a href=\"" + modalList[numModals-x].link + "\"type=\"button\" class=\"btn btn-default\">" + modalList[numModals-x].altButtonTxt + "</button>" + 
+						//"<a href=\"" + modalList[numModals-x].link + "\"type=\"button\" class=\"btn btn-default\">" + modalList[numModals-x].altButtonTxt + "</button>" + 
 						//"<button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button>" + 
 					"</div><!-- /modal-footer-->" + 
 				"</div><!-- /modal-content -->" + 
