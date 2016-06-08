@@ -11,9 +11,15 @@ body {
 p {
 	font-size: 16px;
 }
-
+h4 {
+	text-align: center;
+}
 .margin {
 	margin-bottom: 45px;
+}
+.margin-L-R{
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .container-fluid {
@@ -56,11 +62,15 @@ p {
 #ABOUT { 
 	background-color: #474e5d; /* Dark Blue */
 	color: #ffffff;
+	
 }
 #ABOUT .content p{
 	line-height: 150%;
 	margin-bottom: 25px;
-	
+}
+#ABOUT .page-header{
+	margin-left: 20px; 
+    margin-right: 20px
 }
 #PROJECTS { 
     background-color: #ffffff; /* White */
@@ -71,19 +81,45 @@ p {
 #PROJECTS img:hover {
 	opacity: 0.4;
 }
+#PUBLICATIONS {
+	background-color: #ffffff; /* White */
+    color: #555555;
+    margin-left: 20px; 
+    margin-right: 20px
+	
+}
+#PUBLICATIONS p{
+	font-size: 18px;
+}
+#PUBLICATIONS .submittedTo p{
+	font-size: 16px;
+}
 #EXPERIENCE {
     background-color: #ffffff; /* White */
     color: #555555;
     margin-left: 20px; 
     margin-right: 20px
 }
-#CONTACT { 
-    background-color: #939296; /* Black Gray */
-    color: #fff; 
+#CONNECT { 
+    background-color: #ffffff; /* White */
+    color: #555555; 
+    margin-left: 20px; 
+    margin-right: 20px
+	
+}
+#CONNECT .contactInfo {
+	margin-top: 20px;
+	font-size: 14pt;
+		
+}
+#CONNECT .subText {
+	font-size: 13pt;
+		
 }
 #FOOTER { 
     background-color: #2f2f2f; /* Black Gray */
     color: #fff; 
+    font-size: 14px;
     padding-top: 10px !important;
     padding-bottom: 20px !important;
 }

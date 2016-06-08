@@ -50,7 +50,7 @@ for (var x = 0; x < numRows; x++){
 }
 /*--------------Create Our Cols--------------------*/
 for (var x = 0; x < 3; x++){
-	$("#PROJECTS .row").append("<div class=\"col-md-4 text-center\"></div>"); //<div class="col-md-4"></div>
+	$("#PROJECTS .row").append("<div class=\"col-md-4 \"></div>"); //<div class="col-md-4"></div>
 }
 //alert(modalList.length + " " + numModals);
 /*--------------Add the individual modals to each block--------------------*/
@@ -72,12 +72,25 @@ for (var x = 1; x <= numModals; x++){
 					"<div class=\"modal-body\">" + 
 						"<p>" + modalList[numModals-x].description + "</p>" + 
 					"</div><!-- /modal-body -->" +
-					"<div class=\"modal-footer\">" + 
-						//"<a href=\"" + modalList[numModals-x].link + "\"type=\"button\" class=\"btn btn-default\">" + modalList[numModals-x].altButtonTxt + "</button>" + 
-						//"<button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button>" + 
-					"</div><!-- /modal-footer-->" + 
 				"</div><!-- /modal-content -->" + 
 			"</div><!-- /modal-dialog -->" + 
-		"</div><!-- /this-modal -->");	
+		"</div><!-- /this-modal -->");
+	
+	if (modalList[numModals-x].link != "N/A" && modalList[numModals-x].id !="eagleProject"){
+		$("#modal-" + modalList[numModals-x].id + " .modal-dialog .modal-content").append(
+			"<div class=\"modal-footer\">" +
+				"<a href=\"" + modalList[numModals-x].link + "\"type=\"button\" class=\"btn btn-default\">" + modalList[numModals-x].altButtonTxt + "</button>" +
+				//"<button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button>" +
+			"</div><!-- /modal-footer-->"
+		);
+	}
+	else if (modalList[numModals-x].link != "N/A" && modalList[numModals-x].id =="eagleProject"){
+		$("#modal-" + modalList[numModals-x].id + " .modal-dialog .modal-content").append(
+			"<div class=\"modal-footer\">" +
+				"<a data-dismiss=\"modal\" data-toggle=\"modal\" href=\"" + modalList[numModals-x].link + "\"type=\"button\" class=\"btn btn-default\">" + modalList[numModals-x].altButtonTxt + "</button>" +
+				//"<button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button>" +
+			"</div><!-- /modal-footer-->"
+		);
+	}
 }
 });
