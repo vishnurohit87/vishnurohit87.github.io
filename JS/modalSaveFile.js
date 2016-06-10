@@ -25,7 +25,7 @@ var modalSaveFile = [
      
     ["NUCAR: Side Channel Attacks - Fall 2015",
 	"nucar-sca",
-	"RISE_SCA.jpg",
+	"RISE_SCA.JPG",
 	"<p>In this project, I implemented several versions of RSA encryption algorithms employing diffrent optimmizations techniques. This project exposed me to higher level computer science concepts and greatly expanded my understanding of C++. Furthemrore, I was introduced to Git, learned to work with linux terminals, and gained experience in developing code in as a team.</p>" +
 	"<p>The year culminated with a poster presentation of our work on side channel attacks at the 2016 Research, Innovation and Scholarship Expo (RISE) at Northeastern University.",
 	"See our poster!",
