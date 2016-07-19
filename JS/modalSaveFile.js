@@ -63,7 +63,7 @@ var modalSaveFile = [
     
     ["Northeatern Interactive Clustering Engine (NICE) - Summer 2015",
      "NICE",
-     "NICE.jpg",
+     "NICE.png",
      "Over the summer, I decided I wanted to gain technical experince in two aspects: fundamental development practices and an introduction to machine learning." +
      	"In order to persue such a task, I joined another research project: the Northeatern University Interactive Clustering Engine, more colloquially known as the \"NICE\" project." +
      	"<p> The goal of the NICE project is to develop a web tool that researchers can use to better understand their data by using machine learning and data visualizaiton algorithms. " +
