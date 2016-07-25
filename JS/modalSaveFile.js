@@ -42,10 +42,10 @@ var modalSaveFile = [
     ["NUMONET: Underwater Acoustic Networking - Fall 2015",
      "numonet",
      "NUMONET.pdf",
-     "The Northeastern Univeristy Marine Observatory Network (NU MONET) project aims to build an underwater accoustic network at Northeastern's Marine Science center in Nahant, MA." +
-     	"I joined this project in its early stages in October of 2015 after meeting the team at an Undergraduate Research Fair held at Northeastern and it has since become one of my primary focuses." +
-     	"Through the this project, I have been exposed to a wide range of technologies and areas, ranging from Matlab, to microcontrollers and circuitry, to state of the art underwater acoustic modems." +
-     	"I have been fortuante enought to work on two (soon to be) published papers and the unique opportunity to work with a team in Rome, Italy." +
+     "The Northeastern Univeristy Marine Observatory Network (NU MONET) project aims to build an underwater accoustic network at Northeastern's Marine Science center in Nahant, MA. " +
+     	"I joined this project as an NSF funded REU student in its early stages in October of 2015 after meeting the team at an Undergraduate Research Fair held at Northeastern and it has since become one of my primary focuses. " +
+     	"<p>Through the this project, I have been exposed to a wide range of technologies and areas, ranging from Matlab, to microcontrollers and circuitry, to state of the art underwater acoustic modems. " +
+     	"I have been fortuante enought to work on two (soon to be) published papers and the unique opportunity to work with a team in Rome, Italy. " +
      	"Finally, I was also given the chance to redesign our project's website where more information about our project can be found. Click the button below to read more!",
      "Read More",
      "http://northeastern.edu/numonet"],
@@ -64,10 +64,10 @@ var modalSaveFile = [
     ["Northeatern Interactive Clustering Engine (NICE) - Summer 2015",
      "NICE",
      "NICE.png",
-     "Over the summer, I decided I wanted to gain technical experince in two aspects: fundamental development practices and an introduction to machine learning." +
-     	"In order to persue such a task, I joined another research project: the Northeatern University Interactive Clustering Engine, more colloquially known as the \"NICE\" project." +
+     "Over the summer, I decided I wanted to gain technical experince in two aspects: fundamental development practices and an introduction to machine learning. " +
+     	"In order to persue my goal, I found an NSF REU offering just that: the Northeatern University Interactive Clustering Engine, more colloquially known as the \"NICE\" project. " +
      	"<p> The goal of the NICE project is to develop a web tool that researchers can use to better understand their data by using machine learning and data visualizaiton algorithms. " +
-     	"<p> In this project, I learned aobut software engineering, developed a better understanding of Git, employed specific coding styles, and worked with Google Tests.",
+     	"",
      "See presentation",
      "N/A"],
 ];
