@@ -24,7 +24,7 @@ var modalSaveFile = [
 	     "The board also has a data file generator that makes it easy to update the boards on the sound. " +
 	     "This project introduced me to Javascript and expanded on my HTML and CSS skills.",
      "Check it out",
-     "N/A"],
+     "http://drewtu2.github.io/gangluff-soundboard/GangluffSoundBoard.html"],
      
     ["NUCAR: Side Channel Attacks - Fall 2015",
 	"nucar-sca",
@@ -70,4 +70,5 @@ var modalSaveFile = [
      	"",
      "See presentation",
      "N/A"],
+     
 ];
