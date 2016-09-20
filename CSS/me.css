@@ -35,7 +35,7 @@ h4 {
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
-    /*background: rgba(0,0,0,0.4);*/
+    opactiy: 1;
 }
 
 .navbar-nav li a:hover {
@@ -53,11 +53,27 @@ h4 {
 }
 
 #HOME {	
-	background-color: #000000; /* Black */
-	/*background-image: url("../Images/Duke_Full.jpg"); /*For now we need to understand how to make everything scaleable*/
-	background-size: 100%;
-	background-repeat: no-repeat;
-	color: #ffffff;
+	/* Location of the image */
+	/*background-image: url("../Images/Duke_Full.jpg");*/
+	background-image: url("../Images/Home.jpg"); 
+	/* Background image is centered vertically and horizontally at all times */
+  	background-position: center center;
+	/* Background image doesn't tile */
+  	background-repeat: no-repeat;
+  	/* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  	background-attachment: fixed;
+	/* This is what makes the background image rescale based on the container's size */
+  	background-size: cover;
+  	/* Set a background color that will be displayed while the background image is loading */
+  	background-color: #000000; /* Black */
+
+	color: #ffffff; /* Text Color: White */ 
+}
+
+#HOME .header {
+	position: relative;
+  	top: 35%;
 }
 #ABOUT { 
 	background-color: #474e5d; /* Dark Blue */
@@ -72,14 +88,27 @@ h4 {
 	margin-left: 20px; 
     margin-right: 20px
 }
+#ABOUT .contactInfo {
+	color: #555555;
+	margin-top: 20px;
+	font-size: 14pt;
+		
+}
+#ABOUT .subText {
+	font-size: 13pt;
+		
+}
 #PROJECTS { 
     background-color: #ffffff; /* White */
     color: #555555;
     margin-left: 20px; 
     margin-right: 20px
 }
+#PROJECTS img{
+	opacity: 1;
+}
 #PROJECTS img:hover {
-	opacity: 0.4;
+	opacity: .3;
 }
 #PUBLICATIONS {
 	background-color: #ffffff; /* White */
@@ -91,31 +120,12 @@ h4 {
 #PUBLICATIONS p{
 	font-size: 18px;
 }
+
 #PUBLICATIONS .submittedTo p{
 	font-size: 16px;
 }
-#EXPERIENCE {
-    background-color: #ffffff; /* White */
-    color: #555555;
-    margin-left: 20px; 
-    margin-right: 20px
-}
-#CONNECT { 
-    background-color: #ffffff; /* White */
-    color: #555555; 
-    margin-left: 20px; 
-    margin-right: 20px
-	
-}
-#CONNECT .contactInfo {
-	margin-top: 20px;
-	font-size: 14pt;
-		
-}
-#CONNECT .subText {
-	font-size: 13pt;
-		
-}
+
+
 #FOOTER { 
     background-color: #2f2f2f; /* Black Gray */
     color: #fff; 

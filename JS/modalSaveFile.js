@@ -22,7 +22,7 @@ var modalSaveFile = [
      "I wrote this soundboard for my AP Chemistry teacher to use to spice up his lectures. " +
 	     "The sounds can be played by clicking on screen buttons or using the keyboard. " +
 	     "The board also has a data file generator that makes it easy to update the boards on the sound. " +
-	     "This project introduced me to Javascript and expanded on my HTML and CSS skills.",
+	     "This project introduced me to programming in Javascript and expanded my knowledge of HTML and CSS.",
      "Check it out",
      "http://drewtu2.github.io/gangluff-soundboard/GangluffSoundBoard.html"],
      
@@ -43,10 +43,10 @@ var modalSaveFile = [
      "numonet",
      "NUMONET.pdf",
      "The Northeastern Univeristy Marine Observatory Network (NU MONET) project aims to build an underwater accoustic network at Northeastern's Marine Science center in Nahant, MA. " +
-     	"I joined this project as an NSF funded REU student in its early stages in October of 2015 after meeting the team at an Undergraduate Research Fair held at Northeastern and it has since become one of my primary focuses. " +
+     	"I joined this project as an NSF funded REU student in its early stages in October of 2015 after meeting the team at an Undergraduate Research Fair held at Northeastern." +
      	"<p>Through the this project, I have been exposed to a wide range of technologies and areas, ranging from Matlab, to microcontrollers and circuitry, to state of the art underwater acoustic modems. " +
-     	"I have been fortuante enought to work on two (soon to be) published papers and the unique opportunity to work with a team in Rome, Italy. " +
-     	"Finally, I was also given the chance to redesign our project's website where more information about our project can be found. Click the button below to read more!",
+     	"While on this project, I have been able to contribute to two (soon to be) published papers, one to the Embark Undergraduate Reaserch Journal at Northeastern and the other " +
+     	"to the IEEE/MTS OCEANS 2016 Conference. During fall 2016, I was nominated and accepted to participate in the 2016 Council of Undergraduate Research REU Symposium in Washington DC.",
      "Read More",
      "http://northeastern.edu/numonet"],
      
@@ -54,21 +54,20 @@ var modalSaveFile = [
     ["My Personal Website - Winter 2015",
      "personalSite",
      "PersonalSite.jpg",
-     "During my freshman year, I realized the importance of a portfolio of sorts to showcase my accomplishments. " +
-     	"A research colleague showed me a website he put togther and inspired me to create my own. " +
-     	"While I had some previous experience with web design, the new site is considerably more advanced than anything I had previously worked on. " +
+     "I built this website as a portfolio to expand upon important aspects of my resume in more detail. " +
      	"In order to complete this project, I learned to use Boostrap and jQuery in order to create a simple but attractive portfolio.",
      "Visit Site",
      "http://drewtu2.github.io"],
     
     ["Northeatern Interactive Clustering Engine (NICE) - Summer 2015",
      "NICE",
-     "NICE.png",
-     "Over the summer, I decided I wanted to gain technical experince in two aspects: fundamental development practices and an introduction to machine learning. " +
-     	"In order to persue my goal, I found an NSF REU offering just that: the Northeatern University Interactive Clustering Engine, more colloquially known as the \"NICE\" project. " +
+     "nice_poster.jpg",
+     "The summer after freshman year, I decided I wanted to gain technical experince in two aspects: proper coding practices and an introduction to machine learning. " +
+     	"I accomplished this by joining an NSF REU offering just that: the Northeatern University Interactive Clustering Engine, more colloquially known as the \"NICE\" project. " +
      	"<p> The goal of the NICE project is to develop a web tool that researchers can use to better understand their data by using machine learning and data visualizaiton algorithms. " +
+     	"During this project, I learned to use Git to work in a collaborative coding environemnt while contributing to an open source C++ machine learning library." +
      	"",
-     "See presentation",
-     "N/A"],
+     "See our poster!",
+     "Docs/NicePosterFinal.pdf"],
      
 ];
