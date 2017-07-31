@@ -41,7 +41,7 @@ var modalSaveFile = [
       
     ["NUMONET: Underwater Acoustic Networking - Fall 2015",
      "numonet",
-     "NUMONET.pdf",
+     "NUMONET.jpg",
      "The Northeastern Univeristy Marine Observatory Network (NU MONET) project aims to build an underwater accoustic network at Northeastern's Marine Science center in Nahant, MA. " +
      	"I joined this project as an NSF funded REU student in its early stages in October of 2015 after meeting the team at an Undergraduate Research Fair held at Northeastern." +
      	"<p>Through the this project, I have been exposed to a wide range of technologies and areas, ranging from Matlab, to microcontrollers and circuitry, to state of the art underwater acoustic modems. " +
