@@ -70,4 +70,32 @@ var modalSaveFile = [
      "See our poster!",
      "Docs/NicePosterFinal.pdf"],
      
+     ["Co-op at MIT Lincoln Laboratory - Spring 2017",
+      "mitll",
+      "LL.png",
+      "I spent my first co-op working in the Open and Embedded Systems group at MIT Lincoln Laboratory." +
+      "While at the labs, the majority of my time was spent working on parallelizing a radar signal processing chain using OpenMP and MPI." +
+      "By the time I completed my co-op, my work had produced a speed up of 1700% in end to end latency.",
+      "Visit the Lincoln Site",
+      "https://ll.mit.edu"],
+      
+     ["Resource Finder | Club Snell Hackathon - Spring 2017",
+      "resource_finder",
+      "resource_finder.png",
+      "This project was developed as part of the 2017 Hardware Hackathon: Club Snell Edition hosted by the Northeastern University Wireless and Generate Clubs." + 
+      "The Resource-Finder aims to provide a proof of concept for a simple interface to help students find campus resources." +
+      "The scope of project was to demonstrate the use of a web interface providing two of many possible services that could be incorporated:" +
+      "This project won the overall best project from a judging panel of industry leaders and Northeastern professors.",
+      "See the Github!",
+      "https://github.com/ZachMarcus/Resource-Finder"],
+     
+      ["NuVision | MIT Connected Care Hackathon - Spring 2017",
+       "nuvision",
+       "nuvision.png",
+       "This project is an augmented reality hackathon project developed for the 2017 Connected Care Design Hackathon hosted by the MIT Design Labs in honor of Bill Mitchell." + 
+       "This project is called \"Nuvision\" and is intended to be a simulation of a connected eyepiece (whether they by contact lenses, glasses, or other form of glasses)." +
+       "Nuvision integrates data from a number of sources and provides them in clean, concise manner overlayed into user vision." +
+       "Nuvision ultimate placed Top 5 at the Connected Care Hackathon. Competition was a mix of undergrads through PhD students.",
+       "See the Github!",
+       "https://github.com/drewtu2/mitConnectedCare"],
 ];
