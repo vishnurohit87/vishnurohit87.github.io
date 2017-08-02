@@ -77,7 +77,7 @@ var modalSaveFile = [
       "While at the labs, the majority of my time was spent working on parallelizing a radar signal processing chain using OpenMP and MPI." +
       "By the time I completed my co-op, my work had produced a speed up of 1700% in end to end latency.",
       "Visit the Lincoln Site",
-      "https://ll.mit.edu"],
+      "ll.mit.edu"],
       
      ["Resource Finder | Club Snell Hackathon - Spring 2017",
       "resource_finder",
