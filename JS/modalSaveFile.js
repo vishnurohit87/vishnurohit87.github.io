@@ -11,7 +11,7 @@ var modalSaveFile = [
 	 ["FIRST Robotics Competition - Spring 2015",
      "firstRobotics",
      "firstRobotics.jpg",
-     "During my senior year of high school, I served as the head programmer of my high school FIRST Robotics team. Working direclty with our team mentor, I wrote code in C++ to run the autonomous and tele-operated functions of our robot." +
+     "During my senior year of high school, I served as the head programmer of my high school FIRST Robotics team. Working directly with our team mentor, I wrote code in C++ to run the autonomous and tele-operated functions of our robot." +
      	"<br> We finished off our season by competing in the 2015 FIRST Robotics National Championships in St. Louis.",
      "Read More",
      "N/A"],
@@ -29,12 +29,12 @@ var modalSaveFile = [
     ["NUCAR: Side Channel Attacks - Fall 2015",
 	"nucar-sca",
 	"RISE_SCA.JPG",
-	"<p>The Northeastern Univeristy Computer Architecture Resarch Lab (NUCAR) Side Channel Attacks project is concerened with cybersecurity on the mobile platform" +
+	"<p>The Northeastern University Computer Architecture Research Lab (NUCAR) Side Channel Attacks project is concerned with cybersecurity on the mobile platform" +
 		"The goal of our project was to exploit weaknesses in current mobile computing standards and break through RSA encryptions using side channel attacks." +
 		"With this information, we would attempt to develop means to guard against these attacks in the future to protect our private data." +
-		"In this project, I implemented several versions of RSA encryption algorithms employing diffrent optimmizations techniques. " +
+		"In this project, I implemented several versions of RSA encryption algorithms employing different optimization techniques. " +
 		"This project exposed me to higher level computer science concepts and greatly expanded my understanding of C++. " +
-		"Furthemrore, I was introduced to Git, learned to work with linux terminals, and gained experience in developing code in as a team.</p>" +
+		"Furthermore, I was introduced to Git, learned to work with linux terminals, and gained experience in developing code in as a team.</p>" +
 		"<p>The year culminated with a poster presentation of our work on side channel attacks at the 2016 Research, Innovation and Scholarship Expo (RISE) at Northeastern University.",
 	"See our poster!",
 	"Docs/SideChannelPosterFinal.pdf"],
@@ -42,10 +42,10 @@ var modalSaveFile = [
     ["NUMONET: Underwater Acoustic Networking - Fall 2015",
      "numonet",
      "NUMONET.jpg",
-     "The Northeastern Univeristy Marine Observatory Network (NU MONET) project aims to build an underwater accoustic network at Northeastern's Marine Science center in Nahant, MA. " +
+     "The Northeastern University Marine Observatory Network (NU MONET) project aims to build an underwater acoustic network at Northeastern's Marine Science center in Nahant, MA. " +
      	"I joined this project as an NSF funded REU student in its early stages in October of 2015 after meeting the team at an Undergraduate Research Fair held at Northeastern." +
-     	"<p>Through the this project, I have been exposed to a wide range of technologies and areas, ranging from Matlab, to microcontrollers and circuitry, to state of the art underwater acoustic modems. " +
-     	"While on this project, I have been able to contribute to two (soon to be) published papers, one to the Embark Undergraduate Reaserch Journal at Northeastern and the other " +
+     	"<p>Through the this project, I have been exposed to a wide range of technologies and areas, ranging from Matlab, to micro controllers  and circuitry, to state of the art underwater acoustic modems. " +
+     	"While on this project, I have been able to contribute to two (soon to be) published papers, one to the Embark Undergraduate Research Journal at Northeastern and the other " +
      	"to the IEEE/MTS OCEANS 2016 Conference. During fall 2016, I was nominated and accepted to participate in the 2016 Council of Undergraduate Research REU Symposium in Washington DC.",
      "Read More",
      "http://northeastern.edu/numonet"],
@@ -55,17 +55,17 @@ var modalSaveFile = [
      "personalSite",
      "PersonalSite.jpg",
      "I built this website as a portfolio to expand upon important aspects of my resume in more detail. " +
-     	"In order to complete this project, I learned to use Boostrap and jQuery in order to create a simple but attractive portfolio.",
+     	"In order to complete this project, I learned to use Bootstrap and jQuery in order to create a simple but attractive portfolio.",
      "Visit Site",
      "http://drewtu2.github.io"],
     
     ["Northeatern Interactive Clustering Engine (NICE) - Summer 2015",
      "NICE",
      "nice_poster.jpg",
-     "The summer after freshman year, I decided I wanted to gain technical experince in two aspects: proper coding practices and an introduction to machine learning. " +
+     "The summer after freshman year, I decided I wanted to gain technical experience in two aspects: proper coding practices and an introduction to machine learning. " +
      	"I accomplished this by joining an NSF REU offering just that: the Northeatern University Interactive Clustering Engine, more colloquially known as the \"NICE\" project. " +
-     	"<p> The goal of the NICE project is to develop a web tool that researchers can use to better understand their data by using machine learning and data visualizaiton algorithms. " +
-     	"During this project, I learned to use Git to work in a collaborative coding environemnt while contributing to an open source C++ machine learning library." +
+     	"<p> The goal of the NICE project is to develop a web tool that researchers can use to better understand their data by using machine learning and data visualization algorithms. " +
+     	"During this project, I learned to use Git to work in a collaborative coding environment while contributing to an open source C++ machine learning library." +
      	"",
      "See our poster!",
      "Docs/NicePosterFinal.pdf"],
@@ -94,8 +94,72 @@ var modalSaveFile = [
        "nuvision.png",
        "This project is an augmented reality hackathon project developed for the 2017 Connected Care Design Hackathon hosted by the MIT Design Labs in honor of Bill Mitchell." + 
        "This project is called \"Nuvision\" and is intended to be a simulation of a connected eyepiece (whether they by contact lenses, glasses, or other form of glasses)." +
-       "Nuvision integrates data from a number of sources and provides them in clean, concise manner overlayed into user vision." +
+       "Nuvision integrates data from a number of sources and provides them in clean, concise manner overlaid into user vision." +
        "Nuvision ultimate placed Top 5 at the Connected Care Hackathon. Competition was a mix of undergrads through PhD students.",
        "See the Github!",
        "https://github.com/drewtu2/mitConnectedCare"],
+
+      ["NUFS Filesystem | Computer Systems Class - Fall 2017",
+      "nufsFS",
+      "nufsFS.png",
+      "A 1MB fuse file system with support for reading and writing small files (under 4kB), deleting, renaming, and linking files, nested directories, and support for large files",
+      "See the Github!",
+      "https://github.com/drewtu2/selected_classwork/tree/master/F17_CS3650_Filesystem"],
+
+      ["Memory Allocator | Computer Systems Class - Fall 2017",
+      "memoryAllocator",
+      "allocator.png",
+      "A memory allocator that uses a number of optimization techniques to improve speed and reduce memory fragmentation. These techniques included binning, thread specific arenas, large upfront allocations, and a memory mailbox system.",
+      "See the Github!",
+      "https://github.com/drewtu2/selected_classwork/tree/master/F17_CS3650_MemoryAllocator"],
+
+      ["NUFS Filesystem | Computer Systems Class - Fall 2017",
+      "nufsFS",
+      "nufsFS.png",
+      "A 1MB fuse file system with support for reading and writing small files (under 4kB), deleting, renaming, and linking files, nested directories, and support for large files",
+      "See the Github!",
+      "https://github.com/drewtu2/selected_classwork/tree/master/F17_CS3650_Filesystem"],
+
+      ["Word Search | Algorithms Class - Fall 2017",
+      "wordsearch",
+      "wordsearch.png",
+      "Given a grid of random characters and a list of words representing valid words to find, the wordsearch project finds all the given words in the wordsearch. Project focused on optimizing our algorithm for the best possible runtime.",
+      "See the Github!",
+      "https://github.com/drewtu2/selected_classwork/tree/master/F17_EECE2560_Wordsearch"],
+
+      ["AeroDust | HackBeanpot 2018 - Spring 2018",
+      "AeroDust",
+      "AeroDust.png",
+      "Rooted a Xiaomi Robot Vacuum and used it to generate a 3D map of wifi signal strength around hackathon venue. Reached final round of judging.",
+      "See the Github!",
+      "https://github.com/dgiese/aerodust/blob/master/intro.pdf"],
+
+      ["Java Animator | OOD Class - Spring 2018",
+      "animator",
+      "animator.png",
+      "A project focused on OOD principles and practices, focusing on a MVC pattern. The goal of this project was to take an input file representing an animation and produce three different representations of the animation: a text view, a SVG view, a visual view, and a interactive view.",
+      "See the Github!",
+      "https://github.com/drewtu2/selected_classwork/tree/master/S18_CS3500_Animator"],
+
+      ["GPS Analysis | Robotics Sensing and Navigation Class - Spring 2018",
+      "gps",
+      "gps.png",
+      "An analysis of GPS error characteristics and performance comparison between RTK and non-RTK GPS.",
+      "See the Github!",
+      "https://github.com/drewtu2/eece5698/tree/master/lab2/lab2_ws"],
+
+      ["Dead Reckoning | Robotics Sensing and Navigation Class - Spring 2018",
+      "deadReckoning",
+      "deadReckoning.png",
+      "Compared the estimated position over time of a car driven through Boston calculated using dead reckoning to a ground truth given by GPS.",
+      "See the Github!",
+      "https://github.com/drewtu2/eece5698/tree/master/lab3"],
+
+      ["Follow Bot| Robotics Sensing and Navigation Class - Spring 2018",
+      "followBot",
+      "followBot.png",
+      "ROS Nodes used for a person following robot in python using a number of person detectors including a HoG detector (camera), MobileNetSSD (camera), and a lidar based detector.",
+      "See the Github!",
+      "https://github.com/drewtu2/eece5698-final"],
+
 ];
