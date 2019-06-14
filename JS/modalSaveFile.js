@@ -161,5 +161,12 @@ var modalSaveFile = [
       "ROS Nodes used for a person following robot in python using a number of person detectors including a HoG detector (camera), MobileNetSSD (camera), and a lidar based detector.",
       "See the Github!",
       "https://github.com/drewtu2/eece5698-final"],
+      
+      ["Felix: A Mobile Drink Serving Robot - Summer 2018",
+      "felix",
+      "felix_render.jpg",
+      "The work I did with my second co-op at Flex from July 2018 - September 2018. Through this project I gained a ton of experience with designing software systems and development proccesses. I also gained a ton of practical experience working with ROS.",
+      "Read the writeup!",
+      "Docs/Felix Report.pdf"],
 
 ];
