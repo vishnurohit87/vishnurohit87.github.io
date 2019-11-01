@@ -179,15 +179,14 @@ var modalSaveFile = [
     ["3D Visual Odometry on Kitti Dataset | Autonomous Field Robotics Class - Spring 2019",
      "3d_visual_odom",
      "3d_visual_odom.png",
-     "Developed a basic 3d monocular visual odometry pipeline using OpenCV and attempted to run it on the Kitti dataset. Was only able to keep track for a couple of frames before losing track of features. None the less, this project proved to be a very interesting starting point into visual SLAM."
+     "Developed a basic 3d monocular visual odometry pipeline using OpenCV and attempted to run it on the Kitti dataset. Was only able to keep track for a couple of frames before losing track of features. None the less, this project proved to be a very interesting starting point into visual SLAM.",
      "See the Github!",
      "https://github.com/drewtu2/eece7150_kitti"],
     
     ["Amazon Internship | Person-Centric Alexa Conversations Team - Summer 2019", 
      "amazon_pac",
      "amazon.png",
-     "Designed, and arhitected the person-centric notification flow for Alexa Devices. Based on voice analysis, Alexa can recognize the person speaking to her. The project I worked on was responsible for using that recognition to send personalized notifications directly to the speaker's phone. This project was in support of an Amazon S-Team goal. The code I wrote went live in Q3/Q4 of 2019."
+     "Designed, and architected the person-centric notification flow for Alexa Devices. Based on voice analysis, Alexa can recognize the person speaking to her. The project I worked on was responsible for using that recognition to send personalized notifications directly to the speaker's phone. This project was in support of an Amazon S-Team goal. The code I wrote went live in Q3/Q4 of 2019.",
      "Read more!",
-     "N/A"], 
-
+     "N/A"]
 ];
