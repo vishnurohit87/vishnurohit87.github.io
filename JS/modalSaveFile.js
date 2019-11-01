@@ -162,11 +162,32 @@ var modalSaveFile = [
       "See the Github!",
       "https://github.com/drewtu2/eece5698-final"],
       
-      ["Felix: A Mobile Drink Serving Robot - Summer 2018",
+      ["Felix: A Mobile Drink Serving Robot | FLEX - Summer 2018",
       "felix",
       "felix_render.jpg",
       "The work I did with my second co-op at Flex from July 2018 - September 2018. Through this project I gained a ton of experience with designing software systems and development proccesses. I also gained a ton of practical experience working with ROS.",
       "Read the writeup!",
       "Docs/Felix Report.pdf"],
+
+    ["2D Underwater Visual Odometry | Autonomous Field Robotics Class - Spring 2019",
+     "2d_visual_odom",
+     "2d_visual_odom.png",
+     "Developed a basic underwater visual odometry pipleine using OpenCV on a real dataset from an underwater autonomous vehicle. Estimated and caclulated potential loop closures. Optimized proposed solutions using g2o.",
+     "See the Github!",
+     "https://github.com/drewtu2/eece7150/tree/master/vo"],
+
+    ["3D Visual Odometry on Kitti Dataset | Autonomous Field Robotics Class - Spring 2019",
+     "3d_visual_odom",
+     "3d_visual_odom.png",
+     "Developed a basic 3d monocular visual odometry pipeline using OpenCV and attempted to run it on the Kitti dataset. Was only able to keep track for a couple of frames before losing track of features. None the less, this project proved to be a very interesting starting point into visual SLAM."
+     "See the Github!",
+     "https://github.com/drewtu2/eece7150_kitti"],
+    
+    ["Amazon Internship | Person-Centric Alexa Conversations Team - Summer 2019", 
+     "amazon_pac",
+     "amazon.png",
+     "Designed, and arhitected the person-centric notification flow for Alexa Devices. Based on voice analysis, Alexa can recognize the person speaking to her. The project I worked on was responsible for using that recognition to send personalized notifications directly to the speaker's phone. This project was in support of an Amazon S-Team goal. The code I wrote went live in Q3/Q4 of 2019."
+     "Read more!",
+     "N/A"], 
 
 ];
