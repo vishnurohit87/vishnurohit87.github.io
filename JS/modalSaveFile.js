@@ -6,7 +6,7 @@ var modalSaveFile = [
       "See the Github!",
       "https://github.com/drewtu2/selected_classwork/tree/master/F17_CS3650_MemoryAllocator"],
 
-      ["Analysis of deep learning based SLAM solution for underwater applications - DROID SLAM",
+      ["Applicability of deep learning based SLAM solution for visually-degraded underwater applications",
       "droid_slam",
       "memoryAllocator.png",
       "A memory allocator that uses a number of optimization techniques to improve speed and reduce memory fragmentation. These techniques included binning, thread specific arenas, large upfront allocations, and a memory mailbox system.",
