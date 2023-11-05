@@ -1,22 +1,8 @@
 var modalSaveFile = [
-	["Eagle Project at the Hofheimer Grotto - Fall 2015", 
-	 "eagleProject",
-	 "eagleProjectGrottoFinal.jpg", 
-	 "<p>My Eagle project was the culmination of the planning, communication, and leadership  skills developed during my 10 years in the Scouting program.</p>" +
-		 "<p>For my project, I designed and built a picnic area and trailhead for a local township wonder: the Hoffheimer Grotto. During this project, I worked closely with township officials, troop leadership, teachers, local historians and friends  for guidance. The project totaled over 500 people hours including more than 100 hours of planning.</p>" +
-		 "<p>Each constructed piece of the project was thoroughly drawn and dimensioned in AutoDesk inventor. I also worked with Adobe Photoshop to design and create a historical poster detailing the history of the Hoffheimer Grotto.</p>",
-	 "See the project",
-	 "#eagleDocsModal"],
    
-	 ["FIRST Robotics Competition - Spring 2015",
-     "firstRobotics",
-     "firstRobotics.jpg",
-     "During my senior year of high school, I served as the head programmer of my high school FIRST Robotics team. Working directly with our team mentor, I wrote code in C++ to run the autonomous and tele-operated functions of our robot." +
-     	"<br> We finished off our season by competing in the 2015 FIRST Robotics National Championships in St. Louis.",
-     "Read More",
-     "N/A"],
     
-    ["Gangluff Soundboard - Spring 2015",
+     
+    ["Teaching assistant ",
      "gangluffSoundboard",
      "Ganglfuff_Soundboard.jpg",
      "I wrote this soundboard for my AP Chemistry teacher to use to spice up his lectures. " +
@@ -25,7 +11,7 @@ var modalSaveFile = [
 	     "This project introduced me to programming in Javascript and expanded my knowledge of HTML and CSS.",
      "Check it out",
      "http://drewtu2.github.io/gangluff-soundboard/GangluffSoundBoard.html"],
-     
+
     ["NUCAR: Side Channel Attacks - Fall 2015",
 	"nucar-sca",
 	"RISE_SCA.JPG",
@@ -53,14 +39,14 @@ var modalSaveFile = [
       "See the Github!",
       "https://github.com/drewtu2/selected_classwork/tree/master/F17_CS3650_MemoryAllocator"],
 
-      ["IMU characterization for visually degraded sitautions",
+      ["IMU sensor noise modeling and error characterization",
       "nufsFS",
       "nufs.png",
       "A 1MB fuse file system with support for reading and writing small files (under 4kB), deleting, renaming, and linking files, nested directories, and support for large files",
       "See the Github!",
       "https://github.com/drewtu2/selected_classwork/tree/master/F17_CS3650_Filesystem"],
 
-      ["IR camera based VIO system",
+      ["IR camera based VIO system on aerial drone",
       "wordsearch",
       "wordSearch.png",
       "Given a grid of random characters and a list of words representing valid words to find, the wordsearch project finds all the given words in the wordsearch. Project focused on optimizing our algorithm for the best possible runtime.",
@@ -83,21 +69,35 @@ var modalSaveFile = [
       "https://github.com/drewtu2/eece5698/tree/master/lab2/lab2_ws"],
 
       
-      ["Legged Robot control of a 3 link biped",
+      ["Modeling and controls of a 3 link biped",
       "felix",
       "felix_render.jpg",
       "The work I did with my second co-op at Flex from July 2018 - September 2018. Through this project I gained a ton of experience with designing software systems and development proccesses. I also gained a ton of practical experience working with ROS.",
       "Read the writeup!",
       "Docs/Felix Report.pdf"],
 
-    ["2D Underwater Visual Odometry | Autonomous Field Robotics Class - Spring 2019",
+    ["Data association techniques for image matching - classical and deep learning based",
      "2d_visual_odom",
      "2d_visual_odom.png",
      "Developed a basic underwater visual odometry pipleine using OpenCV on a real dataset from an underwater autonomous vehicle. Estimated and caclulated potential loop closures. Optimized proposed solutions using g2o.",
      "See the Github!",
      "https://github.com/jpsnir/eece7150/tree/master/vo"],
 
-    ["3D Visual Odometry on Kitti Dataset | Autonomous Field Robotics Class - Spring 2019",
+    ["Visual Odometry for 2D and 3D navigation with real datasets with loop closure",
+     "3d_visual_odom",
+     "3d_visual_odom.png",
+     "Kitti, underwater dataset",
+     "See the Github!",
+     "https://github.com/drewtu2/eece7150_kitti"],
+    
+    ["Depth reconstruction from multi-view cameras",
+     "3d_visual_odom",
+     "3d_visual_odom.png",
+     "Developed a basic 3d monocular visual odometry pipeline using OpenCV and attempted to run it on the Kitti dataset. Was only able to keep track for a couple of frames before losing track of features. None the less, this project proved to be a very interesting starting point into visual SLAM.",
+     "See the Github!",
+     "https://github.com/drewtu2/eece7150_kitti"],
+
+    ["Extrinsic Sensor Calibration Techniques - Camera, Lidar and IMU",
      "3d_visual_odom",
      "3d_visual_odom.png",
      "Developed a basic 3d monocular visual odometry pipeline using OpenCV and attempted to run it on the Kitti dataset. Was only able to keep track for a couple of frames before losing track of features. None the less, this project proved to be a very interesting starting point into visual SLAM.",
@@ -110,4 +110,23 @@ var modalSaveFile = [
      "Sensor fusion and software integration with Humatics Rail positioning technology; designed digital filters to filter the noise in IMU data; IMU self calibration routines, real time processing, design patterns, Train attitude estimation algorithms for train's acceleration correction,  ",
      "Read more!",
      "N/A"]
+    ["Teaching assistant roles",
+     "gangluffSoundboard",
+     "Ganglfuff_Soundboard.jpg",
+     "I wrote this soundboard for my AP Chemistry teacher to use to spice up his lectures. " +
+	     "The sounds can be played by clicking on screen buttons or using the keyboard. " +
+	     "The board also has a data file generator that makes it easy to update the boards on the sound. " +
+	     "This project introduced me to programming in Javascript and expanded my knowledge of HTML and CSS.",
+     "Check it out",
+     "http://drewtu2.github.io/gangluff-soundboard/GangluffSoundBoard.html"],
+    
+    ["Assistive Writing device for Parkinson’s patient",
+     "gangluffSoundboard",
+     "Ganglfuff_Soundboard.jpg",
+     "I wrote this soundboard for my AP Chemistry teacher to use to spice up his lectures. " +
+	     "The sounds can be played by clicking on screen buttons or using the keyboard. " +
+	     "The board also has a data file generator that makes it easy to update the boards on the sound. " +
+	     "This project introduced me to programming in Javascript and expanded my knowledge of HTML and CSS.",
+     "Check it out",
+     "http://drewtu2.github.io/gangluff-soundboard/GangluffSoundBoard.html"],
 ];
