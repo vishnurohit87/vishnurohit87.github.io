@@ -104,13 +104,23 @@ var modalSaveFile = [
      "See the Github!",
      "https://github.com/drewtu2/eece7150_kitti"],
     
-    ["Humatics Internship | Algorithms Engineer Intern", 
+    ["Humatics | Algorithms Engineer Intern", 
      "amazon_pac",
      "humatics_logo_intern.jpg",
      "Sensor fusion and software integration with Humatics Rail positioning technology; designed digital filters to filter the noise in IMU data; IMU self calibration routines, real time processing, design patterns, Train attitude estimation algorithms for train's acceleration correction,  ",
      "Read more!",
      "N/A"]
-    ["Teaching assistant roles",
+    ["Teaching assistant 
+     "gangluffSoundboard",
+     "Ganglfuff_Soundboard.jpg",
+     "I wrote this soundboard for my AP Chemistry teacher to use to spice up his lectures. " +
+	     "The sounds can be played by clicking on screen buttons or using the keyboard. " +
+	     "The board also has a data file generator that makes it easy to update the boards on the sound. " +
+	     "This project introduced me to programming in Javascript and expanded my knowledge of HTML and CSS.",
+     "Check it out",
+     "http://drewtu2.github.io/gangluff-soundboard/GangluffSoundBoard.html"],
+    
+    ["
      "gangluffSoundboard",
      "Ganglfuff_Soundboard.jpg",
      "I wrote this soundboard for my AP Chemistry teacher to use to spice up his lectures. " +
