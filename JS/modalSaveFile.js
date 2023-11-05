@@ -1,34 +1,34 @@
 var modalSaveFile = [
       ["Covariance recovery from a deep learning VSLAM solution using principles in non linear optimization",
-      "memoryAllocator",
+      "covariance_recovery",
       "memoryAllocator.png",
       "A memory allocator that uses a number of optimization techniques to improve speed and reduce memory fragmentation. These techniques included binning, thread specific arenas, large upfront allocations, and a memory mailbox system.",
       "See the Github!",
       "https://github.com/drewtu2/selected_classwork/tree/master/F17_CS3650_MemoryAllocator"],
 
       ["Analysis of deep learning based SLAM solution for underwater applications - DROID SLAM",
-      "memoryAllocator",
+      "droid_slam",
       "memoryAllocator.png",
       "A memory allocator that uses a number of optimization techniques to improve speed and reduce memory fragmentation. These techniques included binning, thread specific arenas, large upfront allocations, and a memory mailbox system.",
       "See the Github!",
       "https://github.com/drewtu2/selected_classwork/tree/master/F17_CS3650_MemoryAllocator"],
 
       ["IMU sensor noise modeling and error characterization",
-      "nufsFS",
+      "imu_characterization",
       "nufs.png",
       "A 1MB fuse file system with support for reading and writing small files (under 4kB), deleting, renaming, and linking files, nested directories, and support for large files",
       "See the Github!",
       "https://github.com/drewtu2/selected_classwork/tree/master/F17_CS3650_Filesystem"],
 
       ["IR camera based VIO system on aerial drone",
-      "wordsearch",
+      "ir_vio",
       "wordSearch.png",
       "Given a grid of random characters and a list of words representing valid words to find, the wordsearch project finds all the given words in the wordsearch. Project focused on optimizing our algorithm for the best possible runtime.",
       "See the Github!",
       "https://github.com/drewtu2/selected_classwork/tree/master/F17_EECE2560_Wordsearch"],
 
       ["Underwater VIO system design and development",
-      "AeroDust",
+      "underwater_vio",
       "aeroDust.jpg",
       "Rooted a Xiaomi Robot Vacuum and used it to generate a 3D map of wifi signal strength around hackathon venue. Reached final round of judging.",
       "See the Github!",
@@ -36,15 +36,24 @@ var modalSaveFile = [
 
 
       ["Analysis of navigation sensors",
-      "gps",
+      "navigation_sensors",
       "gps.jpg",
       "An analysis of GPS error characteristics and performance comparison between RTK and non-RTK GPS.",
       "See the Github!",
       "https://github.com/drewtu2/eece5698/tree/master/lab2/lab2_ws"],
 
+    ["Controller for assistive Writing device for Parkinson’s patient",
+     "assistive_writing",
+     "Ganglfuff_Soundboard.jpg",
+     "I wrote this soundboard for my AP Chemistry teacher to use to spice up his lectures. " +
+	     "The sounds can be played by clicking on screen buttons or using the keyboard. " +
+	     "The board also has a data file generator that makes it easy to update the boards on the sound. " +
+	     "This project introduced me to programming in Javascript and expanded my knowledge of HTML and CSS.",
+     "Check it out",
+     "http://drewtu2.github.io/gangluff-soundboard/GangluffSoundBoard.html"],
       
       ["Modeling and controls of a 3 link biped",
-      "felix",
+      "three_link_biped",
       "felix_render.jpg",
       "The work I did with my second co-op at Flex from July 2018 - September 2018. Through this project I gained a ton of experience with designing software systems and development proccesses. I also gained a ton of practical experience working with ROS.",
       "Read the writeup!",
@@ -96,17 +105,7 @@ var modalSaveFile = [
      "http://drewtu2.github.io/gangluff-soundboard/GangluffSoundBoard.html"],
     
     ["Control Design engineer",
-     "gangluffSoundboard",
-     "Ganglfuff_Soundboard.jpg",
-     "I wrote this soundboard for my AP Chemistry teacher to use to spice up his lectures. " +
-	     "The sounds can be played by clicking on screen buttons or using the keyboard. " +
-	     "The board also has a data file generator that makes it easy to update the boards on the sound. " +
-	     "This project introduced me to programming in Javascript and expanded my knowledge of HTML and CSS.",
-     "Check it out",
-     "http://drewtu2.github.io/gangluff-soundboard/GangluffSoundBoard.html"],
-    
-    ["Assistive Writing device for Parkinson’s patient",
-     "gangluffSoundboard",
+     "control_design_engineer",
      "Ganglfuff_Soundboard.jpg",
      "I wrote this soundboard for my AP Chemistry teacher to use to spice up his lectures. " +
 	     "The sounds can be played by clicking on screen buttons or using the keyboard. " +
