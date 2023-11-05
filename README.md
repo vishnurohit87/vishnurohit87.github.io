@@ -1,2 +1,2 @@
-# drewtu2.github.io
+# jpsnir.github.io
 My personal website
