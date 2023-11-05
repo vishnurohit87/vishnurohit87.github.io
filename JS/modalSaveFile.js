@@ -25,6 +25,12 @@ var modalSaveFile = [
      "teaching_assistant_logo.jpg",
      "Write up for teaching assistant",
      "Check it out",
+     "http://"],
+    
+    ["Control Design engineer",
+     "control_design_engineer",
+     "Faros ",
+     "Check it out",
      "http://drewtu2.github.io/gangluff-soundboard/GangluffSoundBoard.html"],
 ];
 
