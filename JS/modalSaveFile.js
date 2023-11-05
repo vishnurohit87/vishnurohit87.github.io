@@ -1,7 +1,4 @@
 var modalSaveFile = [
-   
-    
-     
     ["Teaching assistant ",
      "gangluffSoundboard",
      "Ganglfuff_Soundboard.jpg",
