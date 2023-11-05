@@ -39,130 +39,51 @@ var modalSaveFile = [
 	"See our poster!",
 	"Docs/SideChannelPosterFinal.pdf"],
       
-    ["NUMONET: Underwater Acoustic Networking - Fall 2015",
-     "numonet",
-     "NUMONET.jpg",
-     "The Northeastern University Marine Observatory Network (NU MONET) project aims to build an underwater acoustic network at Northeastern's Marine Science center in Nahant, MA. " +
-     	"I joined this project as an NSF funded REU student in its early stages in October of 2015 after meeting the team at an Undergraduate Research Fair held at Northeastern." +
-     	"<p>Through the this project, I have been exposed to a wide range of technologies and areas, ranging from Matlab, to micro controllers  and circuitry, to state of the art underwater acoustic modems. " +
-     	"While on this project, I have been able to contribute to two (soon to be) published papers, one to the Embark Undergraduate Research Journal at Northeastern and the other " +
-     	"to the IEEE/MTS OCEANS 2016 Conference. During fall 2016, I was nominated and accepted to participate in the 2016 Council of Undergraduate Research REU Symposium in Washington DC.",
-     "Read More",
-     "http://northeastern.edu/numonet"],
-     
-     
-    ["My Personal Website - Winter 2015",
-     "personalSite",
-     "PersonalSite.jpg",
-     "I built this website as a portfolio to expand upon important aspects of my resume in more detail. " +
-     	"In order to complete this project, I learned to use Bootstrap and jQuery in order to create a simple but attractive portfolio.",
-     "Visit Site",
-     "http://drewtu2.github.io"],
-    
-    ["Northeatern Interactive Clustering Engine (NICE) - Summer 2015",
-     "NICE",
-     "nice_poster.jpg",
-     "The summer after freshman year, I decided I wanted to gain technical experience in two aspects: proper coding practices and an introduction to machine learning. " +
-     	"I accomplished this by joining an NSF REU offering just that: the Northeatern University Interactive Clustering Engine, more colloquially known as the \"NICE\" project. " +
-     	"<p> The goal of the NICE project is to develop a web tool that researchers can use to better understand their data by using machine learning and data visualization algorithms. " +
-     	"During this project, I learned to use Git to work in a collaborative coding environment while contributing to an open source C++ machine learning library." +
-     	"",
-     "See our poster!",
-     "Docs/NicePosterFinal.pdf"],
-     
-     ["Co-op at MIT Lincoln Laboratory - Spring 2017",
-      "mitll",
-      "LL.png",
-      "I spent my first co-op working in the Open and Embedded Systems group at MIT Lincoln Laboratory." +
-      "While at the labs, the majority of my time was spent working on parallelizing a radar signal processing chain using OpenMP and MPI." +
-      "By the time I completed my co-op, my work had produced a speed up of 1700% in end to end latency.",
-      "Visit the Lincoln Site",
-      "ll.mit.edu"],
-      
-     ["Resource Finder | Club Snell Hackathon - Spring 2017",
-      "resource_finder",
-      "resource_finder.png",
-      "This project was developed as part of the 2017 Hardware Hackathon: Club Snell Edition hosted by the Northeastern University Wireless and Generate Clubs." + 
-      "The Resource-Finder aims to provide a proof of concept for a simple interface to help students find campus resources." +
-      "The scope of project was to demonstrate the use of a web interface providing two of many possible services that could be incorporated:" +
-      "This project won the overall best project from a judging panel of industry leaders and Northeastern professors.",
-      "See the Github!",
-      "https://github.com/ZachMarcus/Resource-Finder"],
-     
-      ["NuVision | MIT Connected Care Hackathon - Spring 2017",
-       "nuvision",
-       "nuvision.png",
-       "This project is an augmented reality hackathon project developed for the 2017 Connected Care Design Hackathon hosted by the MIT Design Labs in honor of Bill Mitchell." + 
-       "This project is called \"Nuvision\" and is intended to be a simulation of a connected eyepiece (whether they by contact lenses, glasses, or other form of glasses)." +
-       "Nuvision integrates data from a number of sources and provides them in clean, concise manner overlaid into user vision." +
-       "Nuvision ultimate placed Top 5 at the Connected Care Hackathon. Competition was a mix of undergrads through PhD students.",
-       "See the Github!",
-       "https://github.com/drewtu2/mitConnectedCare"],
-
-      ["Simple Shell | Computer Systems Class - Fall 2017",
-      "simpleShell",
-      "simpleShell.png",
-      "A basic Unix shell implemented in C with support for redirecting outputs and inputs,piping, background operations, && and || operations, and the ; operation.",
-      "See the Github!",
-      "https://github.com/drewtu2/selected_classwork/tree/master/F17_CS3650_Shell"],
-
-      ["Memory Allocator | Computer Systems Class - Fall 2017",
+      ["Covariance recovery from a deep learning VSLAM solution using principles in non linear optimization",
       "memoryAllocator",
       "memoryAllocator.png",
       "A memory allocator that uses a number of optimization techniques to improve speed and reduce memory fragmentation. These techniques included binning, thread specific arenas, large upfront allocations, and a memory mailbox system.",
       "See the Github!",
       "https://github.com/drewtu2/selected_classwork/tree/master/F17_CS3650_MemoryAllocator"],
 
-      ["NUFS Filesystem | Computer Systems Class - Fall 2017",
+      ["Analysis of deep learning based SLAM solution for underwater applications - DROID SLAM",
+      "memoryAllocator",
+      "memoryAllocator.png",
+      "A memory allocator that uses a number of optimization techniques to improve speed and reduce memory fragmentation. These techniques included binning, thread specific arenas, large upfront allocations, and a memory mailbox system.",
+      "See the Github!",
+      "https://github.com/drewtu2/selected_classwork/tree/master/F17_CS3650_MemoryAllocator"],
+
+      ["IMU characterization for visually degraded sitautions",
       "nufsFS",
       "nufs.png",
       "A 1MB fuse file system with support for reading and writing small files (under 4kB), deleting, renaming, and linking files, nested directories, and support for large files",
       "See the Github!",
       "https://github.com/drewtu2/selected_classwork/tree/master/F17_CS3650_Filesystem"],
 
-      ["Word Search | Algorithms Class - Fall 2017",
+      ["IR camera based VIO system",
       "wordsearch",
       "wordSearch.png",
       "Given a grid of random characters and a list of words representing valid words to find, the wordsearch project finds all the given words in the wordsearch. Project focused on optimizing our algorithm for the best possible runtime.",
       "See the Github!",
       "https://github.com/drewtu2/selected_classwork/tree/master/F17_EECE2560_Wordsearch"],
 
-      ["AeroDust | HackBeanpot 2018 - Spring 2018",
+      ["Underwater VIO system design and development",
       "AeroDust",
       "aeroDust.jpg",
       "Rooted a Xiaomi Robot Vacuum and used it to generate a 3D map of wifi signal strength around hackathon venue. Reached final round of judging.",
       "See the Github!",
       "https://github.com/dgiese/aerodust/blob/master/intro.pdf"],
 
-      ["Java Animator | OOD Class - Spring 2018",
-      "animator",
-      "animator.png",
-      "A project focused on OOD principles and practices, focusing on a MVC pattern. The goal of this project was to take an input file representing an animation and produce three different representations of the animation: a text view, a SVG view, a visual view, and a interactive view.",
-      "See the Github!",
-      "https://github.com/drewtu2/selected_classwork/tree/master/S18_CS3500_Animator"],
 
-      ["GPS Analysis | Robotics Sensing and Navigation Class - Spring 2018",
+      ["Analysis of navigation sensors",
       "gps",
       "gps.jpg",
       "An analysis of GPS error characteristics and performance comparison between RTK and non-RTK GPS.",
       "See the Github!",
       "https://github.com/drewtu2/eece5698/tree/master/lab2/lab2_ws"],
 
-      ["Dead Reckoning | Robotics Sensing and Navigation Class - Spring 2018",
-      "deadReckoning",
-      "deadReckoning.jpg",
-      "Compared the estimated position over time of a car driven through Boston calculated using dead reckoning to a ground truth given by GPS.",
-      "See the Github!",
-      "https://github.com/drewtu2/eece5698/tree/master/lab3"],
-
-      ["Follow Bot| Robotics Sensing and Navigation Class - Spring 2018",
-      "followBot",
-      "followBot.png",
-      "ROS Nodes used for a person following robot in python using a number of person detectors including a HoG detector (camera), MobileNetSSD (camera), and a lidar based detector.",
-      "See the Github!",
-      "https://github.com/drewtu2/eece5698-final"],
       
-      ["Felix: A Mobile Drink Serving Robot | FLEX - Summer 2018",
+      ["Legged Robot control of a 3 link biped",
       "felix",
       "felix_render.jpg",
       "The work I did with my second co-op at Flex from July 2018 - September 2018. Through this project I gained a ton of experience with designing software systems and development proccesses. I also gained a ton of practical experience working with ROS.",
@@ -174,7 +95,7 @@ var modalSaveFile = [
      "2d_visual_odom.png",
      "Developed a basic underwater visual odometry pipleine using OpenCV on a real dataset from an underwater autonomous vehicle. Estimated and caclulated potential loop closures. Optimized proposed solutions using g2o.",
      "See the Github!",
-     "https://github.com/drewtu2/eece7150/tree/master/vo"],
+     "https://github.com/jpsnir/eece7150/tree/master/vo"],
 
     ["3D Visual Odometry on Kitti Dataset | Autonomous Field Robotics Class - Spring 2019",
      "3d_visual_odom",
@@ -183,10 +104,10 @@ var modalSaveFile = [
      "See the Github!",
      "https://github.com/drewtu2/eece7150_kitti"],
     
-    ["Amazon Internship | Person-Centric Alexa Conversations Team - Summer 2019", 
+    ["Humatics Internship | Algorithms Engineer Intern", 
      "amazon_pac",
-     "amazon.png",
-     "Designed, and architected the person-centric notification flow for Alexa Devices. Based on voice analysis, Alexa can recognize the person speaking to her. The project I worked on was responsible for using that recognition to send personalized notifications directly to the speaker's phone. This project was in support of an Amazon S-Team goal. The code I wrote went live in Q3/Q4 of 2019.",
+     "humatics_logo_intern.jpg",
+     "Sensor fusion and software integration with Humatics Rail positioning technology; designed digital filters to filter the noise in IMU data; IMU self calibration routines, real time processing, design patterns, Train attitude estimation algorithms for train's acceleration correction,  ",
      "Read more!",
      "N/A"]
 ];
