@@ -49,18 +49,18 @@ h4 {
 .myTitle{
 	font-size: 12px;
 	letter-spacing: 1px;
-	color:#f5f6f7;	
+	color:#f5f6f7;
 }
 
-#HOME {	
+#HOME {
 	/* Location of the image */
 	/*background-image: url("../Images/Duke_Full.jpg");*/
-	background-image: url("../Images/Home.jpg"); 
+	background-image: url("../Images/robots_jagat.webp");
 	/* Background image is centered vertically and horizontally at all times */
   	background-position: center center;
 	/* Background image doesn't tile */
   	background-repeat: no-repeat;
-  	/* Background image is fixed in the viewport so that it doesn't move when 
+  	/* Background image is fixed in the viewport so that it doesn't move when
      the content's height is greater than the image's height */
   	background-attachment: fixed;
 	/* This is what makes the background image rescale based on the container's size */
@@ -68,40 +68,40 @@ h4 {
   	/* Set a background color that will be displayed while the background image is loading */
   	background-color: #000000; /* Black */
 
-	color: #ffffff; /* Text Color: White */ 
+	color: #ffffff; /* Text Color: White */
 }
 
 #HOME .header {
 	position: relative;
   	top: 35%;
 }
-#ABOUT { 
+#ABOUT {
 	background-color: #474e5d; /* Dark Blue */
 	color: #ffffff;
-	
+
 }
 #ABOUT .content p{
 	line-height: 150%;
 	margin-bottom: 25px;
 }
 #ABOUT .page-header{
-	margin-left: 20px; 
+	margin-left: 20px;
     margin-right: 20px
 }
 #ABOUT .contactInfo {
 	color: #555555;
 	margin-top: 20px;
 	font-size: 14pt;
-		
+
 }
 #ABOUT .subText {
 	font-size: 13pt;
-		
+
 }
-#PROJECTS { 
+#PROJECTS {
     background-color: #ffffff; /* White */
     color: #555555;
-    margin-left: 20px; 
+    margin-left: 20px;
     margin-right: 20px
 }
 #PROJECTS img{
@@ -113,9 +113,9 @@ h4 {
 #PUBLICATIONS {
 	background-color: #ffffff; /* White */
     color: #555555;
-    margin-left: 20px; 
+    margin-left: 20px;
     margin-right: 20px
-	
+
 }
 #PUBLICATIONS p{
 	font-size: 18px;
@@ -126,9 +126,9 @@ h4 {
 }
 
 
-#FOOTER { 
+#FOOTER {
     background-color: #2f2f2f; /* Black Gray */
-    color: #fff; 
+    color: #fff;
     font-size: 14px;
     padding-top: 10px !important;
     padding-bottom: 20px !important;
