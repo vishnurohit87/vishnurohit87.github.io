@@ -20,10 +20,17 @@ var modalSaveFile = [
      "Read more!",
      "N/A"],
 
-    ["Leadership in mentorship and teaching",
+    ["Analysis of navigation sensors (GPS, RTK GPS, IMU, Lidar) used in mobile robots",
+      "navigation_sensors",
+      "gps.jpg",
+      "An analysis of error characteristics of GPS, RTK GPS, IMU.",
+      "See the Github!",
+      "https://github.com/jpsnir/portfolio_projects/"],
+
+    ["Leadership in mentoring and teaching",
      "teaching_assitant",
      "teaching_assistant_logo.png",
-     "Track record for leading and performing teaching assistant positions in IIT Delhi, Northeastern university and young technology scholars program", 
+     "Awarded  for teaching assistant positions in IIT Delhi, Northeastern university and young technology scholars program", 
      "Check out the details here",
      "http://github.com/jpsnir/portfolio_projects/"],
     
@@ -48,12 +55,12 @@ var modalSaveFile = [
       "Read the writeup!",
       "http://github.com/jpsnir/portfolio_projects/"],
 
-    ["Data association techniques for image matching - classical and deep learning based",
+    ["Image registration and tracking using classical and deep learning methods",
      "2d_visual_odom",
      "2d_visual_odom.png",
-     "Developed a basic underwater visual odometry pipleine using OpenCV on a real dataset from an underwater autonomous vehicle. Estimated and caclulated potential loop closures. Optimized proposed solutions using g2o.",
+     "Performance of visual image registration techniques with classical feature point based methods and deep learning methods on low contrast and low texture environments. ",
      "See the Github!",
-     "https://github.com/jpsnir/portfolio_projects/"],
+     "https://github.com/jpsnir/portfolio_projects"],
 
     ["Visual Odometry for 2D and 3D navigation with real datasets with loop closure",
      "3d_visual_odom",
@@ -75,6 +82,7 @@ var modalSaveFile = [
      "Description here",
      "See more details!",
      "https://github.com/jpsnir/portfolio_projects/"],
+
 ];
 
 
