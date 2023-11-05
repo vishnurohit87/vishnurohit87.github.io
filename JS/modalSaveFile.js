@@ -13,10 +13,10 @@ var modalSaveFile = [
       "See the video here!",
       "https://github.com/jpsnir/portfolio_projects/"],
     
-    ["Humatics | Algorithms Engineer Intern", 
+    ["Humatics | Algorithms and navigation Engineer Intern", 
      "humatics_intern",
      "humatics_logo_intern.png",
-     "Sensor fusion and software integration with Humatics Rail positioning technology; designed digital filters to filter the noise in IMU data; IMU self calibration routines, real time processing, design patterns, Train attitude estimation algorithms for train's acceleration correction,  ",
+     "Sensor fusion (Kalman filter and graph based optimization) and software integration with Humatics Rail positioning technology; designed digital filters to filter the noise in IMU data; IMU self calibration routines, real time processing, design patterns, Train attitude estimation algorithms for train's acceleration correction,  ",
      "Read more!",
      "N/A"],
 
