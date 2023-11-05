@@ -1,27 +1,4 @@
 var modalSaveFile = [
-    ["Teaching assistant ",
-     "gangluffSoundboard",
-     "Ganglfuff_Soundboard.jpg",
-     "I wrote this soundboard for my AP Chemistry teacher to use to spice up his lectures. " +
-	     "The sounds can be played by clicking on screen buttons or using the keyboard. " +
-	     "The board also has a data file generator that makes it easy to update the boards on the sound. " +
-	     "This project introduced me to programming in Javascript and expanded my knowledge of HTML and CSS.",
-     "Check it out",
-     "http://drewtu2.github.io/gangluff-soundboard/GangluffSoundBoard.html"],
-
-    ["NUCAR: Side Channel Attacks - Fall 2015",
-	"nucar-sca",
-	"RISE_SCA.JPG",
-	"<p>The Northeastern University Computer Architecture Research Lab (NUCAR) Side Channel Attacks project is concerned with cybersecurity on the mobile platform" +
-		"The goal of our project was to exploit weaknesses in current mobile computing standards and break through RSA encryptions using side channel attacks." +
-		"With this information, we would attempt to develop means to guard against these attacks in the future to protect our private data." +
-		"In this project, I implemented several versions of RSA encryption algorithms employing different optimization techniques. " +
-		"This project exposed me to higher level computer science concepts and greatly expanded my understanding of C++. " +
-		"Furthermore, I was introduced to Git, learned to work with linux terminals, and gained experience in developing code in as a team.</p>" +
-		"<p>The year culminated with a poster presentation of our work on side channel attacks at the 2016 Research, Innovation and Scholarship Expo (RISE) at Northeastern University.",
-	"See our poster!",
-	"Docs/SideChannelPosterFinal.pdf"],
-      
       ["Covariance recovery from a deep learning VSLAM solution using principles in non linear optimization",
       "memoryAllocator",
       "memoryAllocator.png",
@@ -106,7 +83,8 @@ var modalSaveFile = [
      "humatics_logo_intern.jpg",
      "Sensor fusion and software integration with Humatics Rail positioning technology; designed digital filters to filter the noise in IMU data; IMU self calibration routines, real time processing, design patterns, Train attitude estimation algorithms for train's acceleration correction,  ",
      "Read more!",
-     "N/A"]
+     "N/A"],
+
     ["Teaching assistant 
      "gangluffSoundboard",
      "Ganglfuff_Soundboard.jpg",
@@ -117,7 +95,7 @@ var modalSaveFile = [
      "Check it out",
      "http://drewtu2.github.io/gangluff-soundboard/GangluffSoundBoard.html"],
     
-    ["
+    ["Control Design engineer",
      "gangluffSoundboard",
      "Ganglfuff_Soundboard.jpg",
      "I wrote this soundboard for my AP Chemistry teacher to use to spice up his lectures. " +
