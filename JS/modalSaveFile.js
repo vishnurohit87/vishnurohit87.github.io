@@ -24,14 +24,14 @@ var modalSaveFile = [
     
     ["Controller for assistive Writing device for Parkinson’s patient",
      "assistive_writing",
-     "assistive_robotics.png",
+     "project_assistive_robotics.png",
      " Write up for the project",
      "Check out the report",
      "http://github.com/jpsnir/portfolio_projects/"],
       
       ["Modeling and Simulation of Three link Biped using Hybrid Zero Dynamics",
       "three_link_biped",
-      "three_link_biped.png",
+      "project_three_link_biped.png",
       "The control of a bipedal system is a challenging and complex problem that requires a powerful solution. The method of Hybrid Zero Dynamics developed at the University of Michigan is one such solution. This paper details the complete implementation of the hybrid zero dynamics of a three-link biped through the development of the kinematics, dynamic modeling, and controller design. Using the zero dynamics of our derived model, we find an energy efficient gait design, and integrate the full dynamics with a PD controller. These results are then verified with a step simulation.",
       "Read the writeup!",
       "http://github.com/jpsnir/portfolio_projects/"],
@@ -52,7 +52,7 @@ var modalSaveFile = [
     
     ["Depth reconstruction and robust VSLAM in dynamic environments",
      "depth_reconstruction",
-     "robust_vslam_dynamic_environments.png",
+     "project_robust_vslam_dynamic_env.png",
      "Developed a basic 3d monocular visual odometry pipeline using OpenCV and attempted to run it on the Kitti dataset. Was only able to keep track for a couple of frames before losing track of features. None the less, this project proved to be a very interesting starting point into visual SLAM.",
      "See the paper!",
      "https://ieeexplore.ieee.org/document/9591171"],
