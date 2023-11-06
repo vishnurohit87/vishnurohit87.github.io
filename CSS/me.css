@@ -98,6 +98,21 @@ h4 {
 	font-size: 13pt;
 
 }
+
+#EXPERIENCE {
+    background-color: #ffffff; /* White */
+    color: #555555;
+    margin-left: 20px;
+    margin-right: 20px
+}
+#EXPERIENCE img{
+	opacity: 1;
+}
+#EXPERIENCE img:hover {
+	opacity: .3;
+}
+
+
 #PROJECTS {
     background-color: #ffffff; /* White */
     color: #555555;
