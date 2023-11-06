@@ -1,27 +1,4 @@
 var modalSaveFile = [
-      ["Covariance recovery from a deep learning VSLAM solution using principles in non linear optimization",
-      "covariance_recovery",
-      "covariance_recovery.png",
-      "Covariance recovery write up",
-      "Github will be released soon!",
-      "https://github.com/jpsnir/portfolio_projects"],
-      
-     ["Applicability of deep learning based SLAM solution for visually-degraded underwater applications",
-      "droid_slam",
-      "droid_slam.png",
-      "DROID SLAM Writeup",
-      "See the video here!",
-      "https://github.com/jpsnir/portfolio_projects/"],
-    
-
-    ["Analysis of navigation sensors (GPS, RTK GPS, IMU, Lidar) used in mobile robots",
-      "navigation_sensors",
-      "gps.jpg",
-      "An analysis of error characteristics of GPS, RTK GPS, IMU.",
-      "See the Github!",
-      "https://github.com/jpsnir/portfolio_projects/"],
-
-    
     ["Controller for assistive Writing device for Parkinson’s patient",
      "assistive_writing",
      "project_assistive_robotics.png",
@@ -57,12 +34,27 @@ var modalSaveFile = [
      "See the paper!",
      "https://ieeexplore.ieee.org/document/9591171"],
 
+    
     ["System design and Sensor Calibration Techniques - Camera, Lidar and IMU",
      "sensor_calibration",
      "systems_and_calibration.png",
      "Description here",
      "See more details!",
      "https://github.com/jpsnir/portfolio_projects/"],
+      
+    ["Covariance recovery from a deep learning VSLAM solution using principles in non linear optimization",
+      "covariance_recovery",
+      "covariance_recovery.png",
+      "Covariance recovery write up",
+      "Github will be released soon!",
+      "https://github.com/jpsnir/portfolio_projects"],
+      
+     ["Applicability of deep learning based SLAM solution for visually-degraded underwater applications",
+      "droid_slam",
+      "droid_slam.png",
+      "DROID SLAM Writeup",
+      "See the video here!",
+      "https://github.com/jpsnir/portfolio_projects/"],
 
 ];
 
