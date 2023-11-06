@@ -15,7 +15,7 @@ var modalSaveFile = [
     
     ["Humatics | Algorithms and navigation Engineer Intern", 
      "humatics_intern",
-     "humatics_logo_intern.png",
+     "https://humatics.com/wp-content/uploads/2022/10/Humatics_sidepanel.png",
      "Sensor fusion (Kalman filter and graph based optimization) and software integration with Humatics Rail positioning technology; designed digital filters to filter the noise in IMU data; IMU self calibration routines, real time processing, design patterns, Train attitude estimation algorithms for train's acceleration correction,  ",
      "Read more!",
      "N/A"],
