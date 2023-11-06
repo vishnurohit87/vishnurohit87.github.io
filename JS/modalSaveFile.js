@@ -29,7 +29,7 @@ var modalSaveFile = [
     
     ["Depth reconstruction and robust VSLAM in dynamic environments",
      "depth_reconstruction",
-     "project_robust_vslam_dynamic_env.png",
+     "project_robust_slam_dynamic_env.png",
      "Developed a basic 3d monocular visual odometry pipeline using OpenCV and attempted to run it on the Kitti dataset. Was only able to keep track for a couple of frames before losing track of features. None the less, this project proved to be a very interesting starting point into visual SLAM.",
      "See the paper!",
      "https://ieeexplore.ieee.org/document/9591171"],
