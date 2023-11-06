@@ -13,12 +13,6 @@ var modalSaveFile = [
       "See the video here!",
       "https://github.com/jpsnir/portfolio_projects/"],
     
-    ["Humatics | Algorithms and navigation Engineer Intern", 
-     "humatics_intern",
-     "https://humatics.com/wp-content/uploads/2022/10/Humatics_sidepanel.png",
-     "Sensor fusion (Kalman filter and graph based optimization) and software integration with Humatics Rail positioning technology; designed digital filters to filter the noise in IMU data; IMU self calibration routines, real time processing, design patterns, Train attitude estimation algorithms for train's acceleration correction,  ",
-     "Read more!",
-     "N/A"],
 
     ["Analysis of navigation sensors (GPS, RTK GPS, IMU, Lidar) used in mobile robots",
       "navigation_sensors",
@@ -27,19 +21,6 @@ var modalSaveFile = [
       "See the Github!",
       "https://github.com/jpsnir/portfolio_projects/"],
 
-    ["Leadership in mentoring and teaching",
-     "teaching_assitant",
-     "teaching_assistant_logo.png",
-     "Awarded  for teaching assistant positions in IIT Delhi, Northeastern university and young technology scholars program", 
-     "Check out the details here",
-     "http://github.com/jpsnir/portfolio_projects/"],
-    
-    ["Control Design engineer",
-     "control_design_engineer",
-     "excavator_simulator.webp",
-     "Systems and control design engineer at Faros Simulation systems, leading to success of various projects that include motion platforms, simulation software, and motion control interface electronics for seamless integration.", 
-     "Check it out",
-     "http://github.com/jpsnir/portfolio_projects/"],
     
     ["Controller for assistive Writing device for Parkinson’s patient",
      "assistive_writing",
