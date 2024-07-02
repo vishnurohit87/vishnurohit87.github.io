@@ -55,6 +55,12 @@ h4 {
 	letter-spacing: 1px;
 	color:#f5f6f7;
 }
+.arsenal-sc-regular-title {
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
 
 #HOME {
 	/* Location of the image */
