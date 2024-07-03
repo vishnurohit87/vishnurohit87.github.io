@@ -64,7 +64,6 @@ h4 {
 
 #HOME {
 	/* Location of the image */
-	/*background-image: url("../Images/Duke_Full.jpg");*/
 	background-image: url("../Images/cover.png");
 	/* Background image is centered vertically and horizontally at all times */
   	background-position: center center;
@@ -74,11 +73,19 @@ h4 {
      the content's height is greater than the image's height */
   	background-attachment: fixed;
 	/* This is what makes the background image rescale based on the container's size */
-  	background-size: auto;
+  	background-size: cover;
   	/* Set a background color that will be displayed while the background image is loading */
   	background-color: #000000; /* Black */
 
 	color: #ffffff; /* Text Color: White */
+}
+
+/* Media query for mobile devices with max-width up to 768px */
+@media (max-width: 768px) {
+    #HOME {
+        /* Center the background image at 35% from the left */
+        background-position: 35% center;
+    }
 }
 
 #HOME .header {
