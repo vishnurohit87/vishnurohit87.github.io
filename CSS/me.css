@@ -65,7 +65,7 @@ h4 {
 #HOME {
 	/* Location of the image */
 	/*background-image: url("../Images/Duke_Full.jpg");*/
-	background-image: url("../Images/cover.jpeg");
+	background-image: url("../Images/cover.jpg");
 	/* Background image is centered vertically and horizontally at all times */
   	background-position: center center;
 	/* Background image doesn't tile */
@@ -83,7 +83,7 @@ h4 {
 
 #HOME .header {
 	position: relative;
-  	top: 35%;
+  	top: 20%;
 }
 #ABOUT {
 	background-color: #474e5d; /* Dark Blue */
