@@ -74,7 +74,7 @@ h4 {
      the content's height is greater than the image's height */
   	background-attachment: fixed;
 	/* This is what makes the background image rescale based on the container's size */
-  	background-size: auto;
+  	background-size: contain;
   	/* Set a background color that will be displayed while the background image is loading */
   	background-color: #000000; /* Black */
 
