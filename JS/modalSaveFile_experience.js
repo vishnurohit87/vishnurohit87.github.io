@@ -1,16 +1,16 @@
 var modalSaveFile_experience = [
-    // ["Computer Vision & IoT Intern | EdVerb Learning, India",
-    //  "edverb_intern",
-    //  "teaching_assistant_logo.png",
-    //  "Outstanding teaching assistant awards for mentoring and teaching positions at IIT Delhi, Northeastern university and young technology scholars program", 
-    //  "Check out the details here",
-    //  "N/A"],
+    ["Computer Vision & IoT Intern | EdVerb Learning, India",
+     "edverb_intern",
+     "iot.png",
+     "Built multiple Computer Vision and TinyML projects leveraging Raspberry Pi and ESP-32 to create cost-efficient home security solutions using various sensors including cameras, ultrasonic sensors, LDRs, etc.", 
+     "Read more!",
+     "N/A"],
     
     ["Graduate Teaching Assistant | Northeastern University",
      "teaching_assistant",
      "rsn.png",
      "Guided students of the Robotics Sensing and Navigation class on data acquisition using ROS and analysis techniques for various sensors like IMU, GNSS, RTK GPS, Camera and LiDAR. Also led discussions on core robotics concepts such as localization, mapping, path planning, computer vision, optimization, etc. and their state-of-the-art algorithms.",
-     "Read More!",
+     "Read more!",
      "N/A"],
     
     ["UAS Research Co-op | NU Field Robotics Lab", 
