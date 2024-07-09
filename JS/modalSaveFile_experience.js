@@ -1,5 +1,5 @@
 var modalSaveFile_experience = [
-    ["Computer Vision & IoT Intern | EdVerb Learning, India",
+    ["Computer Vision & IoT Intern | EdVerb Pvt. Ltd., India",
      "edverb_intern",
      "iot.png",
      "Built multiple Computer Vision and TinyML projects leveraging Raspberry Pi and ESP-32 to create cost-efficient home security solutions using various sensors including cameras, ultrasonic sensors, LDRs, etc.", 
