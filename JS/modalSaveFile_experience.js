@@ -16,7 +16,7 @@ var modalSaveFile_experience = [
     ["UAS Research Co-op | NU Field Robotics Lab", 
      "frl_coop",
      "uas.png",
-     "Led the system design and development of a multi-UAV swarm system and implemented coordinated formation flight for target tracking. Conducted multiple field tests and missions to collect precisely time synced datasets from cameras across all drones.",
+     "Led the system design and development of a multi-UAV swarm system and implemented decentralized coordinated formation flight for target tracking. Benchmarked state-of-the-art SLAM algorithms on the on-board Jetson Orin Nano to evaluate real-time performance on edge devices. Calibrated camera intrinsic and extrinsic parameters for the stereo setup before each mission to get accurate depth estimation and onducted multiple field tests and missions to collect precisely time synced datasets from cameras across all drones.",
      "Read more!",
      "N/A"],
     
