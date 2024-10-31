@@ -48,6 +48,13 @@ var modalSaveFile = [
       "See the simulation on GitHub!",
       "https://github.com/vishnurohit87/Multi-UAV_Formation_Control.git"],
 
+      ["Photorealistic 3D Scene Reconstruction using Gaussian Splatting",
+            "gaussian_splatting",
+            "gaussian_splatting.png",
+            "This project involved reconstructing photorealistic 3D scenes from 2D images. I used Gaussian Splatting which requires a sparse 3D pointcloud of the scene and corresponding camera poses to generate and optimize the splats.",
+            "Read more!",
+            "N/A"],
+
 ];
 
 

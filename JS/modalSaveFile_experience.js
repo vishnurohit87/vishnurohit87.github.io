@@ -9,7 +9,7 @@ var modalSaveFile_experience = [
     ["Graduate Teaching Assistant | Northeastern University",
      "teaching_assistant",
      "rsn.png",
-     "Guided students of the Robotics Sensing and Navigation class on data acquisition using ROS and analysis techniques for various sensors like IMU, GNSS, RTK GPS, Camera and LiDAR. Also led discussions on core robotics concepts such as localization, mapping, path planning, computer vision, optimization, etc. and their state-of-the-art algorithms.",
+     "Guided students of the Robotics Sensing and Navigation class on data acquisition using ROS/ROS2 and analysis techniques for various sensors like IMU, GNSS, RTK GPS, Camera and LiDAR. Also led discussions on core robotics concepts such as localization, mapping, path planning, computer vision, optimization, etc. and their state-of-the-art algorithms.",
      "Read more!",
      "N/A"],
     
