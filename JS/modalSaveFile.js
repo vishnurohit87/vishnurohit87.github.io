@@ -34,10 +34,10 @@ var modalSaveFile = [
      "See the demo video!",
      "https://www.youtube.com/watch?v=UkpYMUttDLI"],
       
-    ["3D PointCloud Reconstruction and Visual Odometry from 2D Images | Structure from Motion",
+    ["3D PointCloud Reconstruction and Visual Odometry from 2D Images | Structure from Motion from Scratch",
       "sfm",
       "sfm.png",
-      "This project implements a Structure from Motion (SfM) pipeline for 3D reconstruction from a series of 2D images. The pipeline includes an initial triangulation of 2D image points into 3D space using classical computer vision methods and optimization using the GTSAM library.",
+      "This project implements a Structure from Motion (SfM) pipeline for 3D reconstruction from a series of 2D images from scratch. The pipeline includes an initial triangulation of 2D image points into 3D space using classical computer vision methods and optimization using the GTSAM library.",
       "See more on GitHub!",
       "https://github.com/vishnurohit87/Structure_From_Motion.git"],
       
