@@ -35,7 +35,7 @@ var modalSaveFile = [
      "https://www.youtube.com/watch?v=UkpYMUttDLI"],
       
     ["Structure from Motion (SFM) from Scratch | 3D PointCloud Reconstruction from 2D Images",
-      "sfm",
+      "SFM",
       "sfm.png",
       "This project implements a Structure from Motion (SfM) pipeline for 3D reconstruction from a series of 2D images from scratch. The pipeline includes an initial triangulation of 2D image points into 3D space using classical computer vision methods and optimization using the GTSAM library.",
       "See more on GitHub!",
