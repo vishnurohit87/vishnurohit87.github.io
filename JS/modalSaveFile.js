@@ -44,7 +44,7 @@ var modalSaveFile = [
      ["Multi-UAV Formation Control for Dynamic Target Tracking",
       "formation_flying",
       "ffc.png",
-      "A multi-uav formation control algorithm for tracking a dynamic target. Developed for multirotors running on ArduCopter, this system uses ROS2 to get GPS coordinates of the target and mavlink is used for communicating with the UAVs.",
+      "A multi-uav formation control algorithm with collision avoidance for tracking a dynamic target. Developed for multirotors running on ArduCopter, this system uses ROS2 to get GPS coordinates of the target and mavlink is used for communicating with the UAVs.",
       "See the simulation on GitHub!",
       "https://github.com/vishnurohit87/Multi-UAV_Formation_Control.git"],
 
