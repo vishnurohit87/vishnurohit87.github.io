@@ -13,6 +13,13 @@ var modalSaveFile = [
        "More on GitHub!",
        "https://github.com/vishnurohit87/Plant-Health-Determination-using-NoIR-Camera-and-Implementing-vSLAM.git"],  
 
+     ["Convolutional Neural Network from Scratch using NumPy",
+      "CNN",
+      "cnn.png",
+      "A simple Convolutional Neural Network (CNN) for image classification written from scratch using Numpy. Trained on CIFAR10 dataset. Architecture: [conv - bn - relu] x M - global_average_pooling - affine - softmax. Worked on this project to understand the working of each individual compoent in a CNN. The implementation all the layers used in the network can be found in utils/layers.py",
+      "See more on GitHub!",
+      "https://github.com/vishnurohit87/ConvNet_Numpy.git"],
+      
     ["Image Registration and 2D Visual Odometry on Low-Contrast Underwater Imagery",
      "2d_visual_odom",
      "visual_odom.png",
@@ -33,13 +40,6 @@ var modalSaveFile = [
      "Autonomous reconnaissance in a simulated disaster scenario. Specifically, when introduced into a closed but initially unknown environment, the system accomplishes the following: 1. Generate a complete map of the environment; 2. Locate any victims present in the environment. For the purposes of this exercise, the environment is represented using an occupancy grid map, and AprilTags are used as stand-ins for simulated victims. Our objective is to deploy a TurtleBot3 in an unknown environment filled with AprilTags at randoom locations in random poses. The TurtleBot must generate a comprehensive map of the area while also identifying and cataloguing all the AprilTags present, including their unique ID numbers and absolute poses relative to the generated map.",
      "See the demo video!",
      "https://www.youtube.com/watch?v=UkpYMUttDLI"],
-
-     ["Convolutional Neural Network from Scratch using NumPy",
-      "CNN",
-      "cnn.png",
-      "A simple Convolutional Neural Network (CNN) for image classification written from scratch using Numpy. Trained on CIFAR10 dataset. Architecture: [conv - bn - relu] x M - global_average_pooling - affine - softmax. Worked on this project to understand the working of each individual compoent in a CNN. The implementation all the layers used in the network can be found in utils/layers.py",
-      "See more on GitHub!",
-      "https://github.com/vishnurohit87/ConvNet_Numpy.git"],
 
     ["Structure from Motion (SFM) from Scratch | 3D PointCloud Reconstruction from 2D Images",
       "SFM",
