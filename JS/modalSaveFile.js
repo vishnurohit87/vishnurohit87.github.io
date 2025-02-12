@@ -34,10 +34,10 @@ var modalSaveFile = [
      "See the demo video!",
      "https://www.youtube.com/watch?v=UkpYMUttDLI"],
 
-     ["ConvNet from Scratch using NumPy",
+     ["Convolutional Neural Network from Scratch using NumPy",
       "CNN",
       "cnn.png",
-      "A simple Convolutional Neural Network (CNN) written from scratch using Numpy. Trained on CIFAR10 dataset. Architecture: [conv - bn - relu] x M - global_average_pooling - affine - softmax. Worked on this project to understand the working of each individual compoent in a CNN. The implementation all the layers used in the network can be found in utils/layers.py",
+      "A simple Convolutional Neural Network (CNN) for image classification written from scratch using Numpy. Trained on CIFAR10 dataset. Architecture: [conv - bn - relu] x M - global_average_pooling - affine - softmax. Worked on this project to understand the working of each individual compoent in a CNN. The implementation all the layers used in the network can be found in utils/layers.py",
       "See more on GitHub!",
       "https://github.com/vishnurohit87/ConvNet_Numpy.git"],
 
