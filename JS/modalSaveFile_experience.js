@@ -13,8 +13,8 @@ var modalSaveFile_experience = [
      "Read more!",
      "N/A"],
     
-    ["Robotics Research Intern | Institute for Experiential Robotics, Northeastern University", 
-     "ier_research",
+    ["Robotics Research Intern | NU Field Robotics Lab", 
+     "nufrl_ra",
      "uas.png",
      "Led the system design and development of a multi-UAV swarm system and implemented decentralized coordinated formation flight for tracking targets. Generated 3D/4D representations and novel views of dynamic scenes using NeRFs and Gaussian Splatting, from optimized sparse point clouds produced by Structure from Motion (SfM) algorithms.Benchmarked state-of-the-art SLAM algorithms on the on-board Jetson Orin Nano to evaluate real-time performance on edge devices. Calibrated stereo camera rig before each mission to get accurate depth estimation and conducted multiple field tests and missions to collect precisely time synced datasets from cameras across all drones.",
      "Read more!",
