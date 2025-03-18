@@ -41,6 +41,13 @@ var modalSaveFile = [
      "See the demo video!",
      "https://www.youtube.com/watch?v=UkpYMUttDLI"],
 
+     ["Photorealistic 3D Scene Reconstruction using Gaussian Splatting",
+      "gaussian_splatting",
+      "gaussian_splatting.png",
+      "This project involved reconstructing photorealistic 3D scenes from 2D images. I used Gaussian Splatting which requires a sparse 3D pointcloud of the scene and corresponding camera poses to generate and optimize the splats.",
+      "Read more!",
+      "N/A"],
+
     ["Structure from Motion (SFM) from Scratch | 3D PointCloud Reconstruction from 2D Images",
       "SFM",
       "sfm.png",
@@ -55,12 +62,14 @@ var modalSaveFile = [
       "See the simulation on GitHub!",
       "https://github.com/vishnurohit87/Multi-UAV_Formation_Control.git"],
 
-      ["Photorealistic 3D Scene Reconstruction using Gaussian Splatting",
-            "gaussian_splatting",
-            "gaussian_splatting.png",
-            "This project involved reconstructing photorealistic 3D scenes from 2D images. I used Gaussian Splatting which requires a sparse 3D pointcloud of the scene and corresponding camera poses to generate and optimize the splats.",
-            "Read more!",
-            "N/A"],
+      ["Semantic Segmentation of Road Cracks using Swin Transformer",
+        "swinTransformer",
+        "cracks.png",
+        "The goal of this project was to perform semantic segmentation on images of roads to accurately detect and segment cracks. This is crucial for automating road inspection and maintenance workflows. The model utilizes a Swin Transformer (Tiny variant) as the backbone, integrated into a UPerNet (Unified Perceptual Parsing) architecture, trained using a combination of 2 losses: Cross-Entropy Loss was used in the early stages of training, followed by the Lovasz-Softmax Loss.",
+        "See more on GitHub!",
+        "https://github.com/vishnurohit87/Swin-Transformer-Crack-Segmentation.git"],
+
+
 
 ];
 
