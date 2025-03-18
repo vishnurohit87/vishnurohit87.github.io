@@ -6,19 +6,19 @@ var modalSaveFile = [
       // "Read the writeup!",
       // "http://github.com/jpsnir/portfolio_projects/"],
     
-      ["Real-Time Plant Health Detection using IR Cameras",
-       "depth_reconstruction",
-       "ndvi.png",
-       "This project primarily focuses on determination of plant health by calculating a parameter called ‘Normalized Difference Vegetation Index’ using the captured IR images from a sensing & navigation unit. The project is implemented using a NoIR (No-Infrared) camera for determining plant health. The aim of the project is to create a system for tracking health conditions of plants in indoor environments such as a greenhouse, lab, etc. The initial trial was performed in Northeastern University’s campus where both live and dead plants were scanned to test the NDVI results.",
-       "More on GitHub!",
-       "https://github.com/vishnurohit87/Plant-Health-Determination-using-NoIR-Camera-and-Implementing-vSLAM.git"],  
+    ["Real-Time Plant Health Detection using IR Cameras",
+      "depth_reconstruction",
+      "ndvi.png",
+      "This project primarily focuses on determination of plant health by calculating a parameter called ‘Normalized Difference Vegetation Index’ using the captured IR images from a sensing & navigation unit. The project is implemented using a NoIR (No-Infrared) camera for determining plant health. The aim of the project is to create a system for tracking health conditions of plants in indoor environments such as a greenhouse, lab, etc. The initial trial was performed in Northeastern University’s campus where both live and dead plants were scanned to test the NDVI results.",
+      "More on GitHub!",
+      "https://github.com/vishnurohit87/Plant-Health-Determination-using-NoIR-Camera-and-Implementing-vSLAM.git"],  
 
-     ["Convolutional Neural Network from Scratch using NumPy",
-      "CNN",
-      "cnn.png",
-      "A simple Convolutional Neural Network (CNN) for image classification written from scratch using Numpy. Trained on CIFAR10 dataset. Architecture: [conv - bn - relu] x M - global_average_pooling - affine - softmax. Worked on this project to understand the working of each individual compoent in a CNN. The implementation all the layers used in the network can be found in utils/layers.py",
-      "See more on GitHub!",
-      "https://github.com/vishnurohit87/ConvNet_Numpy.git"],
+    ["Convolutional Neural Network from Scratch using NumPy",
+    "CNN",
+    "cnn.png",
+    "A simple Convolutional Neural Network (CNN) for image classification written from scratch using Numpy. Trained on CIFAR10 dataset. Architecture: [conv - bn - relu] x M - global_average_pooling - affine - softmax. Worked on this project to understand the working of each individual compoent in a CNN. The implementation all the layers used in the network can be found in utils/layers.py",
+    "See more on GitHub!",
+    "https://github.com/vishnurohit87/ConvNet_Numpy.git"],
       
     ["Image Registration and 2D Visual Odometry on Low-Contrast Underwater Imagery",
      "2d_visual_odom",
@@ -41,12 +41,19 @@ var modalSaveFile = [
      "See the demo video!",
      "https://www.youtube.com/watch?v=UkpYMUttDLI"],
 
-     ["Photorealistic 3D Scene Reconstruction using Gaussian Splatting",
-      "gaussian_splatting",
-      "gaussian_splatting.png",
-      "This project involved reconstructing photorealistic 3D scenes from 2D images. I used Gaussian Splatting which requires a sparse 3D pointcloud of the scene and corresponding camera poses to generate and optimize the splats.",
-      "Read more!",
-      "N/A"],
+    ["Photorealistic 3D Scene Reconstruction using Gaussian Splatting",
+    "gaussian_splatting",
+    "gaussian_splatting.png",
+    "This project involved reconstructing photorealistic 3D scenes from 2D images. I used Gaussian Splatting which requires a sparse 3D pointcloud of the scene and corresponding camera poses to generate and optimize the splats.",
+    "Read more!",
+    "N/A"],
+
+    ["Semantic Segmentation of Road Cracks using Swin Transformer",
+      "swinTransformer",
+      "cracks.png",
+      "The goal of this project was to perform semantic segmentation on images of roads to accurately detect and segment cracks. This is crucial for automating road inspection and maintenance workflows. The model utilizes a Swin Transformer (Tiny variant) as the backbone, integrated into a UPerNet (Unified Perceptual Parsing) architecture, trained using a combination of 2 losses: Cross-Entropy Loss was used in the early stages of training, followed by the Lovasz-Softmax Loss.",
+      "See more on GitHub!",
+      "https://github.com/vishnurohit87/Swin-Transformer-Crack-Segmentation.git"],
 
     ["Structure from Motion (SFM) from Scratch | 3D PointCloud Reconstruction from 2D Images",
       "SFM",
@@ -61,15 +68,6 @@ var modalSaveFile = [
       "A multi-uav formation control algorithm with collision avoidance for tracking a dynamic target. Developed for multirotors running on ArduCopter, this system uses ROS2 to get GPS coordinates of the target and mavlink is used for communicating with the UAVs.",
       "See the simulation on GitHub!",
       "https://github.com/vishnurohit87/Multi-UAV_Formation_Control.git"],
-
-      ["Semantic Segmentation of Road Cracks using Swin Transformer",
-        "swinTransformer",
-        "cracks.png",
-        "The goal of this project was to perform semantic segmentation on images of roads to accurately detect and segment cracks. This is crucial for automating road inspection and maintenance workflows. The model utilizes a Swin Transformer (Tiny variant) as the backbone, integrated into a UPerNet (Unified Perceptual Parsing) architecture, trained using a combination of 2 losses: Cross-Entropy Loss was used in the early stages of training, followed by the Lovasz-Softmax Loss.",
-        "See more on GitHub!",
-        "https://github.com/vishnurohit87/Swin-Transformer-Crack-Segmentation.git"],
-
-
 
 ];
 
