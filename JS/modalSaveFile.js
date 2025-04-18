@@ -41,10 +41,10 @@ var modalSaveFile = [
      "See the demo video!",
      "https://www.youtube.com/watch?v=UkpYMUttDLI"],
 
-    ["Photorealistic 3D Scene Reconstruction using Gaussian Splatting",
+    ["Photorealistic 3D Scene Reconstruction using Gaussian Splatting and NeRFs",
     "gaussian_splatting",
     "gaussian_splatting.png",
-    "This project involved reconstructing photorealistic 3D scenes from 2D images. I used Gaussian Splatting which requires a sparse 3D pointcloud of the scene and corresponding camera poses to generate and optimize the splats.",
+    "This project involved generating photorealistic 3D representations of multiple indoor and outdoor scenes to benchmark various 3D Gaussian Splatting and Neural Radiance Fields (NeRFs) frameworks using custom multi-view RGB image datasets. I trained models using sparse point clouds and calibrated camera poses generated via Structure-from-Motion (SfM) in COLMAP, and systematically evaluated scene renderings for visual fidelity and completeness. ",
     "Read more!",
     "N/A"],
 
